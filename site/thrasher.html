@@ -1,0 +1,1032 @@
+
+
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns#" lang="en">
+<head>
+
+<link rel="alternate" href="android-app://com.ThrasherMagazine.Videos/http/www.thrashermagazine.com/articles/videos/" />
+<link rel="alternate" href="android-app://com.ThrasherMagazine.Videos/http/www.thrashermagazine.com/articles/videos/.*" />
+<meta property="fb:pages" content="130922415612" />
+<meta property="fb:app_id" content="218476574831295" />
+<meta name="blitz" content="mu-34e0cb7a-2e275a87-6dee8a8e-59cc4d44">
+<meta property="fb:admins" content="nick.lattner" />
+<meta property="fb:admins" content="SchmittyG" />
+<meta property="fb:admins" content="sweetjerome" />
+<meta property="fb:admins" content="cole.mathews.10" />
+<meta charset="utf-8" /><script type="text/javascript">(window.NREUM||(NREUM={})).init={privacy:{cookies_enabled:false}};(window.NREUM||(NREUM={})).loader_config={xpid:"VgIAVFBSGwAAVVlaDgIPVQ==",licenseKey:"05973e9625",applicationID:"301889383"};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var i=e[n]={exports:{}};t[n][0].call(i.exports,function(e){var i=t[n][1][e];return r(i||e)},i,i.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<n.length;i++)r(n[i]);return r}({1:[function(t,e,n){function r(t){try{c.console&&console.log(t)}catch(e){}}var i,o=t("ee"),a=t(24),c={};try{i=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(c.console=!0,i.indexOf("dev")!==-1&&(c.dev=!0),i.indexOf("nr_dev")!==-1&&(c.nrDev=!0))}catch(s){}c.nrDev&&o.on("internal-error",function(t){r(t.stack)}),c.dev&&o.on("fn-err",function(t,e,n){r(n.stack)}),c.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(c,function(t,e){return t}).join(", ")))},{}],2:[function(t,e,n){function r(t,e,n,r,c){try{p?p-=1:i(c||new UncaughtException(t,e,n),!0)}catch(f){try{o("ierr",[f,s.now(),!0])}catch(d){}}return"function"==typeof u&&u.apply(this,a(arguments))}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function i(t,e){var n=e?null:s.now();o("err",[t,n])}var o=t("handle"),a=t(25),c=t("ee"),s=t("loader"),f=t("gos"),u=window.onerror,d=!1,l="nr@seenError",p=0;s.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(h){"stack"in h&&(t(9),t(8),"addEventListener"in window&&t(5),s.xhrWrappable&&t(10),d=!0)}c.on("fn-start",function(t,e,n){d&&(p+=1)}),c.on("fn-err",function(t,e,n){d&&!n[l]&&(f(n,l,function(){return!0}),this.thrown=!0,i(n))}),c.on("fn-end",function(){d&&!this.thrown&&p>0&&(p-=1)}),c.on("internal-error",function(t){o("ierr",[t,s.now(),!0])})},{}],3:[function(t,e,n){t("loader").features.ins=!0},{}],4:[function(t,e,n){function r(t){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var i=t("ee"),o=t("handle"),a=t(9),c=t(8),s="learResourceTimings",f="addEventListener",u="resourcetimingbufferfull",d="bstResource",l="resource",p="-start",h="-end",m="fn"+p,w="fn"+h,v="bstTimer",g="pushState",y=t("loader");y.features.stn=!0,t(7),"addEventListener"in window&&t(5);var x=NREUM.o.EV;i.on(m,function(t,e){var n=t[0];n instanceof x&&(this.bstStart=y.now())}),i.on(w,function(t,e){var n=t[0];n instanceof x&&o("bst",[n,e,this.bstStart,y.now()])}),a.on(m,function(t,e,n){this.bstStart=y.now(),this.bstType=n}),a.on(w,function(t,e){o(v,[e,this.bstStart,y.now(),this.bstType])}),c.on(m,function(){this.bstStart=y.now()}),c.on(w,function(t,e){o(v,[e,this.bstStart,y.now(),"requestAnimationFrame"])}),i.on(g+p,function(t){this.time=y.now(),this.startPath=location.pathname+location.hash}),i.on(g+h,function(t){o("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),f in window.performance&&(window.performance["c"+s]?window.performance[f](u,function(t){o(d,[window.performance.getEntriesByType(l)]),window.performance["c"+s]()},!1):window.performance[f]("webkit"+u,function(t){o(d,[window.performance.getEntriesByType(l)]),window.performance["webkitC"+s]()},!1)),document[f]("scroll",r,{passive:!0}),document[f]("keypress",r,!1),document[f]("click",r,!1)}},{}],5:[function(t,e,n){function r(t){for(var e=t;e&&!e.hasOwnProperty(u);)e=Object.getPrototypeOf(e);e&&i(e)}function i(t){c.inPlace(t,[u,d],"-",o)}function o(t,e){return t[1]}var a=t("ee").get("events"),c=t("wrap-function")(a,!0),s=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";e.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(i(window),i(f.prototype)),a.on(u+"-start",function(t,e){var n=t[1],r=s(n,"nr@wrapped",function(){function t(){if("function"==typeof n.handleEvent)return n.handleEvent.apply(n,arguments)}var e={object:t,"function":n}[typeof n];return e?c(e,"fn-",null,e.name||"anonymous"):n});this.wrapped=t[1]=r}),a.on(d+"-start",function(t){t[1]=this.wrapped||t[1]})},{}],6:[function(t,e,n){function r(t,e,n){var r=t[e];"function"==typeof r&&(t[e]=function(){var t=o(arguments),e={};i.emit(n+"before-start",[t],e);var a;e[m]&&e[m].dt&&(a=e[m].dt);var c=r.apply(this,t);return i.emit(n+"start",[t,a],c),c.then(function(t){return i.emit(n+"end",[null,t],c),t},function(t){throw i.emit(n+"end",[t],c),t})})}var i=t("ee").get("fetch"),o=t(25),a=t(24);e.exports=i;var c=window,s="fetch-",f=s+"body-",u=["arrayBuffer","blob","json","text","formData"],d=c.Request,l=c.Response,p=c.fetch,h="prototype",m="nr@context";d&&l&&p&&(a(u,function(t,e){r(d[h],e,f),r(l[h],e,f)}),r(c,"fetch",s),i.on(s+"end",function(t,e){var n=this;if(e){var r=e.headers.get("content-length");null!==r&&(n.rxSize=r),i.emit(s+"done",[null,e],n)}else i.emit(s+"done",[t],n)}))},{}],7:[function(t,e,n){var r=t("ee").get("history"),i=t("wrap-function")(r);e.exports=r;var o=window.history&&window.history.constructor&&window.history.constructor.prototype,a=window.history;o&&o.pushState&&o.replaceState&&(a=o),i.inPlace(a,["pushState","replaceState"],"-")},{}],8:[function(t,e,n){var r=t("ee").get("raf"),i=t("wrap-function")(r),o="equestAnimationFrame";e.exports=r,i.inPlace(window,["r"+o,"mozR"+o,"webkitR"+o,"msR"+o],"raf-"),r.on("raf-start",function(t){t[0]=i(t[0],"fn-")})},{}],9:[function(t,e,n){function r(t,e,n){t[0]=a(t[0],"fn-",null,n)}function i(t,e,n){this.method=n,this.timerDuration=isNaN(t[1])?0:+t[1],t[0]=a(t[0],"fn-",this,n)}var o=t("ee").get("timer"),a=t("wrap-function")(o),c="setTimeout",s="setInterval",f="clearTimeout",u="-start",d="-";e.exports=o,a.inPlace(window,[c,"setImmediate"],c+d),a.inPlace(window,[s],s+d),a.inPlace(window,[f,"clearImmediate"],f+d),o.on(s+u,r),o.on(c+u,i)},{}],10:[function(t,e,n){function r(t,e){d.inPlace(e,["onreadystatechange"],"fn-",c)}function i(){var t=this,e=u.context(t);t.readyState>3&&!e.resolved&&(e.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,g,"fn-",c)}function o(t){y.push(t),h&&(b?b.then(a):w?w(a):(E=-E,R.data=E))}function a(){for(var t=0;t<y.length;t++)r([],y[t]);y.length&&(y=[])}function c(t,e){return e}function s(t,e){for(var n in t)e[n]=t[n];return e}t(5);var f=t("ee"),u=f.get("xhr"),d=t("wrap-function")(u),l=NREUM.o,p=l.XHR,h=l.MO,m=l.PR,w=l.SI,v="readystatechange",g=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],y=[];e.exports=u;var x=window.XMLHttpRequest=function(t){var e=new p(t);try{u.emit("new-xhr",[e],e),e.addEventListener(v,i,!1)}catch(n){try{u.emit("internal-error",[n])}catch(r){}}return e};if(s(p,x),x.prototype=p.prototype,d.inPlace(x.prototype,["open","send"],"-xhr-",c),u.on("send-xhr-start",function(t,e){r(t,e),o(e)}),u.on("open-xhr-start",r),h){var b=m&&m.resolve();if(!w&&!m){var E=1,R=document.createTextNode(E);new h(a).observe(R,{characterData:!0})}}else f.on("fn-end",function(t){t[0]&&t[0].type===v||a()})},{}],11:[function(t,e,n){function r(t){if(!c(t))return null;var e=window.NREUM;if(!e.loader_config)return null;var n=(e.loader_config.accountID||"").toString()||null,r=(e.loader_config.agentID||"").toString()||null,f=(e.loader_config.trustKey||"").toString()||null;if(!n||!r)return null;var h=p.generateSpanId(),m=p.generateTraceId(),w=Date.now(),v={spanId:h,traceId:m,timestamp:w};return(t.sameOrigin||s(t)&&l())&&(v.traceContextParentHeader=i(h,m),v.traceContextStateHeader=o(h,w,n,r,f)),(t.sameOrigin&&!u()||!t.sameOrigin&&s(t)&&d())&&(v.newrelicHeader=a(h,m,w,n,r,f)),v}function i(t,e){return"00-"+e+"-"+t+"-01"}function o(t,e,n,r,i){var o=0,a="",c=1,s="",f="";return i+"@nr="+o+"-"+c+"-"+n+"-"+r+"-"+t+"-"+a+"-"+s+"-"+f+"-"+e}function a(t,e,n,r,i,o){var a="btoa"in window&&"function"==typeof window.btoa;if(!a)return null;var c={v:[0,1],d:{ty:"Browser",ac:r,ap:i,id:t,tr:e,ti:n}};return o&&r!==o&&(c.d.tk=o),btoa(JSON.stringify(c))}function c(t){return f()&&s(t)}function s(t){var e=!1,n={};if("init"in NREUM&&"distributed_tracing"in NREUM.init&&(n=NREUM.init.distributed_tracing),t.sameOrigin)e=!0;else if(n.allowed_origins instanceof Array)for(var r=0;r<n.allowed_origins.length;r++){var i=h(n.allowed_origins[r]);if(t.hostname===i.hostname&&t.protocol===i.protocol&&t.port===i.port){e=!0;break}}return e}function f(){return"init"in NREUM&&"distributed_tracing"in NREUM.init&&!!NREUM.init.distributed_tracing.enabled}function u(){return"init"in NREUM&&"distributed_tracing"in NREUM.init&&!!NREUM.init.distributed_tracing.exclude_newrelic_header}function d(){return"init"in NREUM&&"distributed_tracing"in NREUM.init&&NREUM.init.distributed_tracing.cors_use_newrelic_header!==!1}function l(){return"init"in NREUM&&"distributed_tracing"in NREUM.init&&!!NREUM.init.distributed_tracing.cors_use_tracecontext_headers}var p=t(21),h=t(13);e.exports={generateTracePayload:r,shouldGenerateTrace:c}},{}],12:[function(t,e,n){function r(t){var e=this.params,n=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<l;r++)t.removeEventListener(d[r],this.listener,!1);e.aborted||(n.duration=a.now()-this.startTime,this.loadCaptureCalled||4!==t.readyState?null==e.status&&(e.status=0):o(this,t),n.cbTime=this.cbTime,u.emit("xhr-done",[t],t),c("xhr",[e,n,this.startTime]))}}function i(t,e){var n=s(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.parsedOrigin=s(e),t.sameOrigin=t.parsedOrigin.sameOrigin}function o(t,e){t.params.status=e.status;var n=w(e,t.lastSize);if(n&&(t.metrics.rxSize=n),t.sameOrigin){var r=e.getResponseHeader("X-NewRelic-App-Data");r&&(t.params.cat=r.split(", ").pop())}t.loadCaptureCalled=!0}var a=t("loader");if(a.xhrWrappable){var c=t("handle"),s=t(13),f=t(11).generateTracePayload,u=t("ee"),d=["load","error","abort","timeout"],l=d.length,p=t("id"),h=t(17),m=t(16),w=t(14),v=window.XMLHttpRequest;a.features.xhr=!0,t(10),t(6),u.on("new-xhr",function(t){var e=this;e.totalCbs=0,e.called=0,e.cbTime=0,e.end=r,e.ended=!1,e.xhrGuids={},e.lastSize=null,e.loadCaptureCalled=!1,t.addEventListener("load",function(n){o(e,t)},!1),h&&(h>34||h<10)||window.opera||t.addEventListener("progress",function(t){e.lastSize=t.loaded},!1)}),u.on("open-xhr-start",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),u.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid);var n=f(this.parsedOrigin);if(n){var r=!1;n.newrelicHeader&&(e.setRequestHeader("newrelic",n.newrelicHeader),r=!0),n.traceContextParentHeader&&(e.setRequestHeader("traceparent",n.traceContextParentHeader),n.traceContextStateHeader&&e.setRequestHeader("tracestate",n.traceContextStateHeader),r=!0),r&&(this.dt=n)}}),u.on("send-xhr-start",function(t,e){var n=this.metrics,r=t[0],i=this;if(n&&r){var o=m(r);o&&(n.txSize=o)}this.startTime=a.now(),this.listener=function(t){try{"abort"!==t.type||i.loadCaptureCalled||(i.params.aborted=!0),("load"!==t.type||i.called===i.totalCbs&&(i.onloadCalled||"function"!=typeof e.onload))&&i.end(e)}catch(n){try{u.emit("internal-error",[n])}catch(r){}}};for(var c=0;c<l;c++)e.addEventListener(d[c],this.listener,!1)}),u.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),u.on("xhr-load-added",function(t,e){var n=""+p(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),u.on("xhr-load-removed",function(t,e){var n=""+p(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),u.on("addEventListener-end",function(t,e){e instanceof v&&"load"===t[0]&&u.emit("xhr-load-added",[t[1],t[2]],e)}),u.on("removeEventListener-end",function(t,e){e instanceof v&&"load"===t[0]&&u.emit("xhr-load-removed",[t[1],t[2]],e)}),u.on("fn-start",function(t,e,n){e instanceof v&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=a.now()))}),u.on("fn-end",function(t,e){this.xhrCbStart&&u.emit("xhr-cb-time",[a.now()-this.xhrCbStart,this.onload,e],e)}),u.on("fetch-before-start",function(t){function e(t,e){var n=!1;return e.newrelicHeader&&(t.set("newrelic",e.newrelicHeader),n=!0),e.traceContextParentHeader&&(t.set("traceparent",e.traceContextParentHeader),e.traceContextStateHeader&&t.set("tracestate",e.traceContextStateHeader),n=!0),n}var n,r=t[1]||{};"string"==typeof t[0]?n=t[0]:t[0]&&t[0].url?n=t[0].url:window.URL&&t[0]&&t[0]instanceof URL&&(n=t[0].href),n&&(this.parsedOrigin=s(n),this.sameOrigin=this.parsedOrigin.sameOrigin);var i=f(this.parsedOrigin);if(i&&(i.newrelicHeader||i.traceContextParentHeader))if("string"==typeof t[0]||window.URL&&t[0]&&t[0]instanceof URL){var o={};for(var a in r)o[a]=r[a];o.headers=new Headers(r.headers||{}),e(o.headers,i)&&(this.dt=i),t.length>1?t[1]=o:t.push(o)}else t[0]&&t[0].headers&&e(t[0].headers,i)&&(this.dt=i)})}},{}],13:[function(t,e,n){var r={};e.exports=function(t){if(t in r)return r[t];var e=document.createElement("a"),n=window.location,i={};e.href=t,i.port=e.port;var o=e.href.split("://");!i.port&&o[1]&&(i.port=o[1].split("/")[0].split("@").pop().split(":")[1]),i.port&&"0"!==i.port||(i.port="https"===o[0]?"443":"80"),i.hostname=e.hostname||n.hostname,i.pathname=e.pathname,i.protocol=o[0],"/"!==i.pathname.charAt(0)&&(i.pathname="/"+i.pathname);var a=!e.protocol||":"===e.protocol||e.protocol===n.protocol,c=e.hostname===document.domain&&e.port===n.port;return i.sameOrigin=a&&(!e.hostname||c),"/"===i.pathname&&(r[t]=i),i}},{}],14:[function(t,e,n){function r(t,e){var n=t.responseType;return"json"===n&&null!==e?e:"arraybuffer"===n||"blob"===n||"json"===n?i(t.response):"text"===n||""===n||void 0===n?i(t.responseText):void 0}var i=t(16);e.exports=r},{}],15:[function(t,e,n){function r(){}function i(t,e,n){return function(){return o(t,[f.now()].concat(c(arguments)),e?null:this,n),e?void 0:this}}var o=t("handle"),a=t(24),c=t(25),s=t("ee").get("tracer"),f=t("loader"),u=NREUM;"undefined"==typeof window.newrelic&&(newrelic=u);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",p=l+"ixn-";a(d,function(t,e){u[e]=i(l+e,!0,"api")}),u.addPageAction=i(l+"addPageAction",!0),u.setCurrentRouteName=i(l+"routeName",!0),e.exports=newrelic,u.interaction=function(){return(new r).get()};var h=r.prototype={createTracer:function(t,e){var n={},r=this,i="function"==typeof e;return o(p+"tracer",[f.now(),t,n],r),function(){if(s.emit((i?"":"no-")+"fn-start",[f.now(),r,i],n),i)try{return e.apply(this,arguments)}catch(t){throw s.emit("fn-err",[arguments,this,t],n),t}finally{s.emit("fn-end",[f.now()],n)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){h[e]=i(p+e)}),newrelic.noticeError=function(t,e){"string"==typeof t&&(t=new Error(t)),o("err",[t,f.now(),!1,e])}},{}],16:[function(t,e,n){e.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(e){return}}}},{}],17:[function(t,e,n){var r=0,i=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);i&&(r=+i[1]),e.exports=r},{}],18:[function(t,e,n){function r(){return c.exists&&performance.now?Math.round(performance.now()):(o=Math.max((new Date).getTime(),o))-a}function i(){return o}var o=(new Date).getTime(),a=o,c=t(26);e.exports=r,e.exports.offset=a,e.exports.getLastTimestamp=i},{}],19:[function(t,e,n){function r(t){return!(!t||!t.protocol||"file:"===t.protocol)}e.exports=r},{}],20:[function(t,e,n){function r(t,e){var n=t.getEntries();n.forEach(function(t){"first-paint"===t.name?d("timing",["fp",Math.floor(t.startTime)]):"first-contentful-paint"===t.name&&d("timing",["fcp",Math.floor(t.startTime)])})}function i(t,e){var n=t.getEntries();n.length>0&&d("lcp",[n[n.length-1]])}function o(t){t.getEntries().forEach(function(t){t.hadRecentInput||d("cls",[t])})}function a(t){if(t instanceof h&&!w){var e=Math.round(t.timeStamp),n={type:t.type};e<=l.now()?n.fid=l.now()-e:e>l.offset&&e<=Date.now()?(e-=l.offset,n.fid=l.now()-e):e=l.now(),w=!0,d("timing",["fi",e,n])}}function c(t){d("pageHide",[l.now(),t])}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var s,f,u,d=t("handle"),l=t("loader"),p=t(23),h=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){s=new PerformanceObserver(r);try{s.observe({entryTypes:["paint"]})}catch(m){}f=new PerformanceObserver(i);try{f.observe({entryTypes:["largest-contentful-paint"]})}catch(m){}u=new PerformanceObserver(o);try{u.observe({type:"layout-shift",buffered:!0})}catch(m){}}if("addEventListener"in document){var w=!1,v=["click","keydown","mousedown","pointerdown","touchstart"];v.forEach(function(t){document.addEventListener(t,a,!1)})}p(c)}},{}],21:[function(t,e,n){function r(){function t(){return e?15&e[n++]:16*Math.random()|0}var e=null,n=0,r=window.crypto||window.msCrypto;r&&r.getRandomValues&&(e=r.getRandomValues(new Uint8Array(31)));for(var i,o="xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx",a="",c=0;c<o.length;c++)i=o[c],"x"===i?a+=t().toString(16):"y"===i?(i=3&t()|8,a+=i.toString(16)):a+=i;return a}function i(){return a(16)}function o(){return a(32)}function a(t){function e(){return n?15&n[r++]:16*Math.random()|0}var n=null,r=0,i=window.crypto||window.msCrypto;i&&i.getRandomValues&&Uint8Array&&(n=i.getRandomValues(new Uint8Array(31)));for(var o=[],a=0;a<t;a++)o.push(e().toString(16));return o.join("")}e.exports={generateUuid:r,generateSpanId:i,generateTraceId:o}},{}],22:[function(t,e,n){function r(t,e){if(!i)return!1;if(t!==i)return!1;if(!e)return!0;if(!o)return!1;for(var n=o.split("."),r=e.split("."),a=0;a<r.length;a++)if(r[a]!==n[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var c=navigator.userAgent,s=c.match(a);s&&c.indexOf("Chrome")===-1&&c.indexOf("Chromium")===-1&&(i="Safari",o=s[1])}e.exports={agent:i,version:o,match:r}},{}],23:[function(t,e,n){function r(t){function e(){t(a&&document[a]?document[a]:document[i]?"hidden":"visible")}"addEventListener"in document&&o&&document.addEventListener(o,e,!1)}e.exports=r;var i,o,a;"undefined"!=typeof document.hidden?(i="hidden",o="visibilitychange",a="visibilityState"):"undefined"!=typeof document.msHidden?(i="msHidden",o="msvisibilitychange"):"undefined"!=typeof document.webkitHidden&&(i="webkitHidden",o="webkitvisibilitychange",a="webkitVisibilityState")},{}],24:[function(t,e,n){function r(t,e){var n=[],r="",o=0;for(r in t)i.call(t,r)&&(n[o]=e(r,t[r]),o+=1);return n}var i=Object.prototype.hasOwnProperty;e.exports=r},{}],25:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,i=n-e||0,o=Array(i<0?0:i);++r<i;)o[r]=t[e+r];return o}e.exports=r},{}],26:[function(t,e,n){e.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(t,e,n){function r(){}function i(t){function e(t){return t&&t instanceof r?t:t?f(t,s,a):a()}function n(n,r,i,o,a){if(a!==!1&&(a=!0),!p.aborted||o){t&&a&&t(n,r,i);for(var c=e(i),s=m(n),f=s.length,u=0;u<f;u++)s[u].apply(c,r);var l=d[y[n]];return l&&l.push([x,n,r,c]),c}}function o(t,e){g[t]=m(t).concat(e)}function h(t,e){var n=g[t];if(n)for(var r=0;r<n.length;r++)n[r]===e&&n.splice(r,1)}function m(t){return g[t]||[]}function w(t){return l[t]=l[t]||i(n)}function v(t,e){u(t,function(t,n){e=e||"feature",y[n]=e,e in d||(d[e]=[])})}var g={},y={},x={on:o,addEventListener:o,removeEventListener:h,emit:n,get:w,listeners:m,context:e,buffer:v,abort:c,aborted:!1};return x}function o(t){return f(t,s,a)}function a(){return new r}function c(){(d.api||d.feature)&&(p.aborted=!0,d=p.backlog={})}var s="nr@context",f=t("gos"),u=t(24),d={},l={},p=e.exports=i();e.exports.getOrSetContext=o,p.backlog=d},{}],gos:[function(t,e,n){function r(t,e,n){if(i.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return t[e]=r,r}var i=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){i.buffer([t],r),i.emit(t,e,n)}var i=t("ee").get("handle");e.exports=r,r.ee=i},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,o,function(){return i++})}var i=1,o="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!E++){var t=b.info=NREUM.info,e=p.getElementsByTagName("script")[0];if(setTimeout(f.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&e))return f.abort();s(y,function(e,n){t[e]||(t[e]=n)});var n=a();c("mark",["onload",n+b.offset],null,"api"),c("timing",["load",n]);var r=p.createElement("script");r.src="https://"+t.agent,e.parentNode.insertBefore(r,e)}}function i(){"complete"===p.readyState&&o()}function o(){c("mark",["domContent",a()+b.offset],null,"api")}var a=t(18),c=t("handle"),s=t(24),f=t("ee"),u=t(22),d=t(19),l=window,p=l.document,h="addEventListener",m="attachEvent",w=l.XMLHttpRequest,v=w&&w.prototype;if(d(l.location)){NREUM.o={ST:setTimeout,SI:l.setImmediate,CT:clearTimeout,XHR:w,REQ:l.Request,EV:l.Event,PR:l.Promise,MO:l.MutationObserver};var g=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1208.min.js"},x=w&&v&&v[h]&&!/CriOS/.test(navigator.userAgent),b=e.exports={offset:a.getLastTimestamp(),now:a,origin:g,features:{},xhrWrappable:x,userAgent:u};t(15),t(20),p[h]?(p[h]("DOMContentLoaded",o,!1),l[h]("load",r,!1)):(p[m]("onreadystatechange",i),l[m]("onload",r)),c("mark",["firstbyte",a.getLastTimestamp()],null,"api");var E=0}},{}],"wrap-function":[function(t,e,n){function r(t,e){function n(e,n,r,s,f){function nrWrapper(){var o,a,u,l;try{a=this,o=d(arguments),u="function"==typeof r?r(o,a):r||{}}catch(p){i([p,"",[o,a,s],u],t)}c(n+"start",[o,a,s],u,f);try{return l=e.apply(a,o)}catch(h){throw c(n+"err",[o,a,h],u,f),h}finally{c(n+"end",[o,a,l],u,f)}}return a(e)?e:(n||(n=""),nrWrapper[l]=e,o(e,nrWrapper,t),nrWrapper)}function r(t,e,r,i,o){r||(r="");var c,s,f,u="-"===r.charAt(0);for(f=0;f<e.length;f++)s=e[f],c=t[s],a(c)||(t[s]=n(c,u?s+r:r,i,s,o))}function c(n,r,o,a){if(!h||e){var c=h;h=!0;try{t.emit(n,r,o,e,a)}catch(s){i([s,n,r,o],t)}h=c}}return t||(t=u),n.inPlace=r,n.flag=l,n}function i(t,e){e||(e=u);try{e.emit("internal-error",t)}catch(n){}}function o(t,e,n){if(Object.defineProperty&&Object.keys)try{var r=Object.keys(t);return r.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(o){i([o],n)}for(var a in t)p.call(t,a)&&(e[a]=t[a]);return e}function a(t){return!(t&&t instanceof Function&&t.apply&&!t[l])}function c(t,e){var n=e(t);return n[l]=t,o(t,n,u),n}function s(t,e,n){var r=t[e];t[e]=c(r,n)}function f(){for(var t=arguments.length,e=new Array(t),n=0;n<t;++n)e[n]=arguments[n];return e}var u=t("ee"),d=t(25),l="nr@original",p=Object.prototype.hasOwnProperty,h=!1;e.exports=r,e.exports.wrapFunction=c,e.exports.wrapInPlace=s,e.exports.argsToArray=f},{}]},{},["loader",2,12,4,3]);</script>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<base href="/" />
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Thrasher, Magazine, Skateboarding, Skateboarding Videos, Interviews, Articles" />
+<meta property="og:url" content="https://www.thrashermagazine.com/" />
+<meta property="og:title" content="Thrasher Magazine - Displaying items by tag: Junk Drawer" />
+<meta property="og:type" content="website" />
+<meta property="og:description" content="Thrasher Magazine - skateboarding news videos photos clothing skateparks events music and more" />
+<meta name="description" content="Thrasher Magazine - skateboarding news videos photos clothing skateparks events music and more" />
+<meta name="generator" content="The Skateboarding Bible" />
+<title>Thrasher Magazine - Homepage</title>
+<link href="/tag/junk-drawer/?format=feed&amp;type=rss" rel="alternate" type="application/rss+xml" title="RSS 2.0" />
+<link href="/tag/junk-drawer/?format=feed&amp;type=atom" rel="alternate" type="application/atom+xml" title="Atom 1.0" />
+<link href="/templates/thrasher_protostar/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+<link rel="canonical" href="/k2/" />
+<link href="/Fav_64.png" rel="shortcut icon" type="image/png" />
+<link href="/Fav_32.png" rel="shortcut icon" type="image/png" />
+<link rel="stylesheet" type="text/css" href="/templates/thrasher_protostar/css/styles.css?cache=022621V1" />
+<link rel="stylesheet" type="text/css" href="/templates/thrasher_protostar/css/thrasher_flexible.css?cache=031521V1" />
+<script src="/templates/thrasher_protostar/js/thrasher_compiled.js?cache=011520V1" type="text/javascript"></script>
+<script src="/templates/thrasher_protostar/js/thrasher_flexible.js?cache=011520V1" type="text/javascript"></script>
+<link href="/templates/thrasher_protostar/html/flipJS/lity-2.2.0/dist/lity.css" rel="stylesheet"></link>
+<script src="/templates/thrasher_protostar/html/flipJS/lity-2.2.0/dist/lity.js" type="text/javascript" charset="utf-8"></script>
+<script src='/codePlayground/BlockAdBlock/blockadblock.js'></script>
+<script src='/templates/thrasher_protostar/js/Notify/jquery.notifyBar.js'></script>
+<link rel="stylesheet" href="/templates/thrasher_protostar/js/Notify/css/jquery.notifyBar.css">
+<script src="https://www.thrashermagazine.com//templates/thrasher_protostar/js/Sharrre/jquery.sharrre.min.js" type="text/javascript"></script>
+</head>
+<body class="rollover-enabled ">
+<script type="text/javascript">
+    var body = document.getElementsByTagName('body')[0]; // body element
+    var rolloverEnabled = true; // flag for rollover interaction
+    var noMovingParts = false; // flag for browsers that can't handle modern javascript
+
+    // IE8 or lower
+    if (
+    0 ||
+    navigator.appName === 'Microsoft Internet Explorer' &&
+    navigator.appVersion.match(/MSIE ([^\.]+)/)[1] <= 8
+    ) {
+    noMovingParts = true;
+    }
+
+    if (!noMovingParts) {
+      // flag js for css
+      body.className += ' js-enabled';
+
+      // apple devices, android, and silk
+      if (
+          0 ||
+          navigator.userAgent.search(/iphone/i) !== -1 ||
+          navigator.userAgent.search(/ipod/i) !== -1 ||
+          navigator.userAgent.search(/ipad/i) !== -1 ||
+          navigator.userAgent.search(/android/i) !== -1 ||
+          navigator.userAgent.search(/windows phone/i) !== -1 ||
+          navigator.userAgent.search(/zunewp7/i) !== -1 ||
+          navigator.userAgent.search(/blackberry/i) !== -1 ||
+          navigator.userAgent.search(/webos/i) !== -1 || // palm
+          navigator.userAgent.search(/silk/i) !== -1 // kindle
+      ) {
+          rolloverEnabled = false; // unflag rollover for js
+          body.className = body.className.replace('rollover-enabled', ''); // unflag rollover for css
+      }
+
+      if (rolloverEnabled) {
+          // flag intro for css
+          body.className += ' intro-enabled';
+
+          // create intro container
+          var introContainer = document.createElement('div');
+          introContainer.className = 'intro-container';
+          document.body.insertBefore(introContainer, document.body.firstChild);
+      }
+    }
+
+    // set environmental data
+    var environmentData = {};
+    environmentData.noMovingParts = noMovingParts;
+    environmentData.introFlag = rolloverEnabled && !noMovingParts;
+    environmentData.rolloverEnabled = rolloverEnabled;
+    environmentData.parallaxEnabled = rolloverEnabled;
+    environmentData.retinaGraphics = window.devicePixelRatio > 1;
+    environmentData.siteRoot = 'www.thrashermagazine.com:443';
+    var httpProtocol = location.protocol;
+    environmentData.themeUrl = httpProtocol+'//www.thrashermagazine.com:443/templates/thrasher_protostar';
+    // thrasher config
+    var thrasherConfig = {};
+    thrasherConfig.pageInfiniteScrollThreshold = 0.5; // next page will load when the bottom of the page is within this number of window heights of the bottom of the viewport
+    thrasherConfig.tagVideoPreviewsBaseUrl = httpProtocol+'//www.thrashermagazine.com:443/templates/thrasher_protostar/html/globalIncludes/quickFlowGetter.php?outsideRequest=true&previews=true&tagOverride=';
+    thrasherConfig.recentVideoPreviewsUrl = httpProtocol+'//www.thrashermagazine.com:443/templates/thrasher_protostar/html/globalIncludes/quickFlowGetter.php?outsideRequest=true&recentOverride=999999&recentVideos=true';
+    thrasherConfig.coreQueryParams = ['json','cacheBuster', 'start', 'outsideRequest','alt', 'previews', 'tagOverride', 'recentOverride', 'post-list', 'previews-older', 'searchFor','newSchedule'];
+
+    thrasherConfig.jsonImageProperty = 'imageToUse';
+
+    thrasherConfig.previewImageSize = 'S';
+    thrasherConfig.junkDrawerImageSize = 'S_JD';
+    thrasherConfig.featuredImageSize = 'M';
+    thrasherConfig.listingImageSize = 'M';
+    thrasherConfig.secondaryImageSize = 'S_JD';
+    thrasherConfig.searchResultsImageSize = 'TP_JD';
+    thrasherConfig.pageInfiniteScrollThreshold = 0.7;
+
+    thrasherConfig.dfpId = '1044302';
+
+    thrasherConfig.topAdData = {'adunit': 'NewThrasher_970x90->970x300', 'size-mapping': 'leaderBoardMapping'};
+    thrasherConfig.topHomepageAdData = {'adunit': 'NewThrasherTopAdHomepage', 'size-mapping': 'leaderBoardMapping'};
+    thrasherConfig.junkDrawerTopAdData = {'adunit': 'New_Thrasher_AboveJD', 'dimensions': '386x160'};
+    thrasherConfig.junkDrawerAdData = {'adunit': 'NewThrasher300x250Homepage', 'dimensions': '300x250'};
+    thrasherConfig.rightColumnAdData = {'adunit': 'NewThrasher300x250', 'dimensions': '300x250,240x200,240x400'};
+    thrasherConfig.interstitial = {'adunit': 'div-gpt-ad-1355266291603-0'};
+    thrasherConfig.rightColumnHomepageAdData = {'adunit': 'NewThrasherRightColumnHomepage', 'dimensions': '300x250,240x200,240x400'};
+    thrasherConfig.articleSecondaryColumnAdData = {'adunit': 'NewThrasher300x250', 'dimensions': '300x250,240x200,240x400'};
+    thrasherConfig.backgroundAdData = {'adunit': 'NewThrasherBackgroundSkin', 'size-mapping': 'bckgrndMapping'};
+    thrasherConfig.backgroundHomepageAdData = {'adunit': 'NewThrasherBackgroundSkinHomepage', 'size-mapping': 'bckgrndMapping'};
+
+    thrasherConfig.junkDrawerPercent = Number(getUrlParam('junk-drawer-percent', 0.46859903381));
+    thrasherConfig.junkDrawerWidth = Number(getUrlParam('junk-drawer-width', 0));
+
+    thrasherConfig.previewSliderNumItems = Number(getUrlParam('preview-slider-num-items', 4));
+    thrasherConfig.previewSliderHeight = Number(getUrlParam('preview-slider-height', 0));
+
+    thrasherConfig.sharrreUrlCurl = '/sharrre.php';
+
+    thrasherConfig.ajaxSearchUrl = '/search/{{search_query}}/?json=true';
+
+    thrasherConfig.siteRoot = 'www.thrashermagazine.com:443';
+    thrasherConfig.themeUrl = '0www.thrashermagazine.com:443/templates/thrasher_protostar';
+
+    thrasherConfig.thrasherVideoBaseUrl = httpProtocol+'//' + thrasherConfig.siteRoot;
+
+    thrasherConfig.mainIscrollAllowed = false;
+    thrasherConfig.elemIscrollAllowed = true;
+
+  </script>
+<div id="fb-root"></div> 
+<div class="site-container">
+<div class="site-content">
+<div class="faux-body">
+<div class="bkg-container"></div>
+<div class="main-content-container">
+<div class="main-content">
+<div class="ad-container top-ad"></div>
+<div class="header">
+<h1 class="title"><a class="title-link" href="/">Thrasher Magazine</a></h1>
+<a class="menu-button" href="#menu">Menu</a>
+<div class="header-menu">
+
+
+
+<div class="search itp-gs">
+<form class="search-form" action="/search/" method="get" accept-charset="utf-8">
+
+<label class="search-label" for="s">Search</label>
+<input type="text" class="inputbox search-field" id="search" name="searchFor" autocomplete="off">
+<input type="submit" class="btn search-button" value="Search" />
+
+</form>
+</div>
+<ul class="nav menu main-nav">
+<li class="item-101 main-nav-home current active"><div class="main-nav-section-item-container">
+<div class="main-nav-section-item"><a class='main-nav-section-link home' href="/"><span class="text">Home</span></a></div>
+</div>
+</li>
+<li class="item-285 main-nav-section deeper parent"><div class="main-nav-section-item-container">
+<div class="main-nav-section-item">
+<span class="nav-header  main-nav-section-title features">
+<span class="text">Features</span>
+</span>
+</div>
+</div>
+<div class="main-nav-section-list-container">
+<div class="main-nav-section-list-inner-container">
+<ul class="nav-child main-nav-section-list unstyled small">
+<li class="item-325 main-nav-section-list-item first"><a class='item-link burnout' href="/burnout/"><span class="text">Burnout</span></a>
+</li>
+<li class="item-286 main-nav-section-list-item"><a class='item-link bust or bail' href="/articles/videos/bust-or-bail-2-the-ripper-at-clipper/"><span class="text">Bust or Bail</span></a>
+</li>
+<li class="item-304 main-nav-section-list-item"><a class='item-link bffs' href="/bffs/"><span class="text">BFFS</span></a>
+</li>
+<li class="item-323 main-nav-section-list-item"><a class='item-link king of the road' href="/king-of-the-road/"><span class="text">King of the Road</span></a>
+</li>
+<li class="item-326 main-nav-section-list-item"><a class='item-link skate rock' href="/skate-rock/"><span class="text">Skate Rock</span></a>
+</li>
+<li class="item-400 main-nav-section-list-item"><a class='item-link lakai extra flare' href="/extra-flare/"><span class="text">Lakai Extra Flare</span></a>
+</li>
+<li class="item-401 main-nav-section-list-item"><a class='item-link rough cuts' href="/rough-cut/"><span class="text">Rough Cuts</span></a>
+</li>
+<li class="item-455 main-nav-section-list-item"><a class='item-link $lave radio silence' href="https://www.thrashermagazine.com/articles/videos/slave-s-radio-silence-video/"><span class="text">$lave Radio Silence</span></a></li>
+<li class="clear"></li>
+</ul></div></div>
+</li>
+<li class="item-142 main-nav-section deeper parent"><div class="main-nav-section-item-container">
+<div class="main-nav-section-item"><a class='nav-header main-nav-section-link shop' href="http://shop.thrashermagazine.com"><span class="text">Shop</span></a></div>
+</div>
+<div class="main-nav-section-list-container">
+<div class="main-nav-section-list-inner-container">
+<ul class="nav-child main-nav-section-list unstyled small">
+<li class="item-290 main-nav-section-list-item first"><a class='item-link shirts' href="https://shop.thrashermagazine.com/clothing/shirts.html" target="_blank"><span class="text">Shirts</span></a>
+</li>
+<li class="item-291 main-nav-section-list-item"><a class='item-link sweatshirts' href="http://shop.thrashermagazine.com/clothing/sweatshirts.html" target="_blank"><span class="text">Sweatshirts</span></a>
+</li>
+<li class="item-144 main-nav-section-list-item"><a class='item-link jackets' href="https://shop.thrashermagazine.com/clothing/jackets.html" target="_blank"><span class="text">Jackets</span></a>
+</li>
+<li class="item-292 main-nav-section-list-item"><a class='item-link girls gear' href="https://shop.thrashermagazine.com/clothing/girls.html" target="_blank"><span class="text">Girls Gear</span></a>
+</li>
+<li class="item-414 main-nav-section-list-item"><a class='item-link kids' href="https://shop.thrashermagazine.com/clothing/kids.html" target="_blank"><span class="text">Kids</span></a>
+</li>
+<li class="item-293 main-nav-section-list-item"><a class='item-link accessories' href="https://shop.thrashermagazine.com/accessories-and-more.html" target="_blank"><span class="text">Accessories</span></a>
+</li>
+<li class="item-413 main-nav-section-list-item"><a class='item-link hats' href="https://shop.thrashermagazine.com/clothing/headwear.html" target="_blank"><span class="text">Hats</span></a>
+</li>
+<li class="item-143 main-nav-section-list-item"><a class='item-link subscriptions' href="http://shop.thrashermagazine.com/subscriptions.html" target="_blank"><span class="text">Subscriptions</span></a></li>
+<li class="clear"></li>
+</ul></div></div>
+</li>
+<li class="item-113 main-nav-section deeper parent"><div class="main-nav-section-item-container">
+<div class="main-nav-section-item">
+<span class="nav-header  main-nav-section-title video">
+<span class="text">Video</span>
+</span>
+</div>
+</div>
+<div class="main-nav-section-list-container">
+<div class="main-nav-section-list-inner-container">
+<ul class="nav-child main-nav-section-list unstyled small">
+<li class="item-324 main-nav-section-list-item first"><a class='item-link most recent' href="/articles/videos/"><span class="text">Most Recent</span></a>
+</li>
+<li class="item-156 main-nav-section-list-item"><a class='item-link firing line' href="/firing-line/"><span class="text">Firing Line</span></a>
+</li>
+<li class="item-278 main-nav-section-list-item"><a class='item-link full parts' href="/full-parts/"><span class="text">Full Parts</span></a>
+</li>
+<li class="item-157 main-nav-section-list-item"><a class='item-link hall of meat' href="/hall-of-meat/"><span class="text">Hall of Meat</span></a>
+</li>
+<li class="item-160 main-nav-section-list-item"><a class='item-link double rock' href="/double-rock/"><span class="text">Double Rock</span></a>
+</li>
+<li class="item-140 main-nav-section-list-item"><a class='item-link greatest hits' href="/greatest-hits/"><span class="text">Greatest Hits</span></a>
+</li>
+<li class="item-141 main-nav-section-list-item"><a class='item-link king of the road' href="/king-of-the-road/"><span class="text">King of the Road</span></a>
+</li>
+<li class="item-301 main-nav-section-list-item"><a class='item-link magnified' href="/magnified/"><span class="text">Magnified</span></a>
+</li>
+<li class="item-302 main-nav-section-list-item"><a class='item-link bruray' href="/bruray/"><span class="text">BruRay</span></a>
+</li>
+<li class="item-303 main-nav-section-list-item"><a class='item-link skateline' href="/skateline/"><span class="text">Skateline</span></a>
+</li>
+<li class="item-305 main-nav-section-list-item"><a class='item-link classics' href="/classics/"><span class="text">Classics</span></a>
+</li>
+<li class="item-306 main-nav-section-list-item"><a class='item-link classic covers' href="/classic-covers/"><span class="text">Classic Covers</span></a>
+</li>
+<li class="item-307 main-nav-section-list-item"><a class='item-link hot spot' href="/hot-spot/"><span class="text">Hot Spot</span></a>
+</li>
+<li class="item-309 main-nav-section-list-item"><a class='item-link traffic talk' href="/traffic-talk/"><span class="text">Traffic Talk</span></a>
+</li>
+<li class="item-311 main-nav-section-list-item"><a class='item-link time bomb' href="/time-bomb/"><span class="text">Time Bomb</span></a>
+</li>
+<li class="item-312 main-nav-section-list-item"><a class='item-link my war' href="/my-war/"><span class="text">My War</span></a>
+</li>
+<li class="item-308 main-nav-section-list-item"><a class='item-link first look' href="/first-look/"><span class="text">First Look</span></a>
+</li>
+<li class="item-399 main-nav-section-list-item"><a class='item-link contests' href="/contests/"><span class="text">Contests</span></a></li>
+<li class="clear"></li>
+</ul></div></div>
+</li>
+<li class="item-295 main-nav-section deeper parent"><div class="main-nav-section-item-container">
+<div class="main-nav-section-item">
+<span class="nav-header  main-nav-section-title magazine">
+<span class="text">Magazine</span>
+</span>
+</div>
+</div>
+<div class="main-nav-section-list-container">
+<div class="main-nav-section-list-inner-container">
+<ul class="nav-child main-nav-section-list unstyled small">
+<li class="item-297 main-nav-section-list-item first"><a class='item-link subscribe' href="http://shop.thrashermagazine.com/subscriptions.html"><span class="text">Subscribe</span></a>
+</li>
+<li class="item-298 main-nav-section-list-item"><a class='item-link submissions' href="/user-help/photo-and-editorial-submission-guidelines/"><span class="text">Submissions</span></a>
+</li>
+<li class="item-299 main-nav-section-list-item"><a class='item-link covers archive' href="/magazine/covers-archive/"><span class="text">Covers Archive</span></a>
+</li>
+<li class="item-300 main-nav-section-list-item"><a class='item-link articles and interviews' href="/articles-and-interviews/"><span class="text">Articles and Interviews</span></a></li>
+<li class="clear"></li>
+</ul></div></div>
+</li>
+<li class="item-460 main-nav-section"><div class="main-nav-section-item-container">
+<div class="main-nav-section-item"><a class='main-nav-section-link community' href="/community/"><span class="text">Community</span></a></div>
+</div>
+</li>
+<li class="item-145 main-nav-section deeper parent"><div class="main-nav-section-item-container">
+<div class="main-nav-section-item">
+<span class="nav-header  main-nav-section-title more">
+<span class="text">More</span>
+</span>
+</div>
+</div>
+<div class="main-nav-section-list-container">
+<div class="main-nav-section-list-inner-container">
+<ul class="nav-child main-nav-section-list unstyled small">
+<li class="item-313 main-nav-section-list-item first"><a class='item-link contact us' href="/user-help/contact/"><span class="text">Contact Us</span></a>
+</li>
+<li class="item-314 main-nav-section-list-item"><a class='item-link advertising contact' href="/k2/advertising/contact-2/"><span class="text">Advertising Contact</span></a>
+</li>
+<li class="item-315 main-nav-section-list-item"><a class='item-link site map' href="/user-help/site-map/"><span class="text">Site Map</span></a>
+</li>
+<li class="item-316 main-nav-section-list-item"><a class='item-link submission guidelines' href="/user-help/photo-and-editorial-submission-guidelines/"><span class="text">Submission Guidelines</span></a>
+</li>
+<li class="item-317 main-nav-section-list-item"><a class='item-link shop faq' s'href="http://shop.thrashermagazine.com/customer-service" target="_blank"><span class="text">Shop FAQ's</span></a>
+</li>
+<li class="item-294 main-nav-section-list-item"><a class='item-link events' href="/events/"><span class="text">Events</span></a></li>
+<li class="clear"></li>
+</ul></div></div>
+</li>
+</ul>
+<ul class="social-list">
+<li class="social-list-item"><a class="social-list-item-link mailing-list" href="http://visitor.r20.constantcontact.com/d.jsp?llr=mhhtnxcab&p=oi&m=1102445124844&sit=tguhsg6db&f=bcfdcfe1-f3dd-457d-8874-837de38e03da" target="_blank"><span class="icon">Mailing List</span></a></li>
+<li class="social-list-item"><a class="social-list-item-link facebook" href="https://www.facebook.com/ThrasherMagazine/" target="_blank"><span class="icon">Facebook</span></a></li>
+<li class="social-list-item"><a class="social-list-item-link instagram" href="https://instagram.com/thrashermag/" target="_blank"><span class="icon">Instagram</span></a></li>
+<li class="social-list-item"><a class="social-list-item-link twitter" href="https://twitter.com/thrashermag" target="_blank"><span class="icon">Twitter</span></a></li>
+ <li class="social-list-item"><a class="social-list-item-link youtube" href="https://www.youtube.com/user/ThrasherMagazine" target="_blank"><span class="icon">YouTube</span></a></li>
+</ul>
+</div> 
+</div> 
+<div class="page-content-container">
+<div class="page-content home">
+<div class="latest-videos" style="background-image: url(/templates/thrasher_protostar/images/textures/metal.jpg);">
+<div class="background-fade"></div>
+<div class="previews-container">
+<ul class="preview-list" data-items-shown="4">
+<li class="preview-list-item">
+<a class="preview-link" href="/articles/videos/jorge-simoes-bones-part/" title="Jorge Simões' &quot;Bones&quot; Part" data-article-id="24059">
+<img class="preview-thumb" src="/mediaV2/k2/items/cache/cb488994402ffd9512214def89c3622b_M.jpg?t=1619194214" alt="Jorge Simões' &quot;Bones&quot; Part" />
+<span class="preview-title">Jorge Simões' "Bones" Part</span>
+</a>
+</li>
+<li class="preview-list-item">
+<a class="preview-link" href="/articles/videos/john-gardner-s-shoutout-earth-dc-part/" title="John Gardner's &quot;Shoutout Earth&quot; DC Part" data-article-id="24052">
+<img class="preview-thumb" src="/mediaV2/k2/items/cache/fedea9483dc168a73638ce5f5263407e_M.jpg?t=1619117701" alt="John Gardner's &quot;Shoutout Earth&quot; DC Part" />
+<span class="preview-title">John Gardner's "Shoutout Earth" DC Part</span>
+</a>
+</li>
+<li class="preview-list-item">
+<a class="preview-link" href="/articles/videos/krooked-s-magic-art-supplies-video/" title="Krooked's &quot;Magic Art Suplyes&quot; Video" data-article-id="24038">
+<img class="preview-thumb" src="/mediaV2/k2/items/cache/d180829e69eeb4d14a4963a59da0dcfb_M.jpg?t=1618875772" alt="Krooked's &quot;Magic Art Suplyes&quot; Video" />
+<span class="preview-title">Krooked's "Magic Art Suplyes" Video</span>
+</a>
+</li>
+<li class="preview-list-item">
+<a class="preview-link" href="/articles/videos/vol4-21-promo/" title="VOL4/21 Promo" data-article-id="24049">
+<img class="preview-thumb" src="/mediaV2/k2/items/cache/e9cdecd262ab0ffafa325125d59e92a5_M.jpg?t=1619024934" alt="VOL4/21 Promo" />
+<span class="preview-title">VOL4/21 Promo</span>
+</a>
+</li>
+</ul>
+</div> 
+</div> 
+<div class="featured-video-container">
+<div class="featured-video" style="background-image: url(/templates/thrasher_protostar/images/textures/metal.jpg);">
+<div class="featured-video-content">
+<div class="video-container">
+<div class="video-placeholder" data-video-provider="OOyala" data-video-id="jSdLJn1l">
+<p class="video-no-js-message">Sorry, you must be using a <a href="http://browsehappy.com/" target="_blank">modern browser</a> with JavaScript enabled to view videos.</p>
+</div>
+</div> 
+<div class="featured-video-details">
+<div class="title-container"><div class="title"><a href="http://www.thrashermagazine.com/articles/videos/jake-ilardi-s-blind-part/">Jake Ilardi's "Blind" Part</a></div></div>
+<div class="description"><a href="http://www.thrashermagazine.com/articles/videos/jake-ilardi-s-blind-part/">Jake dismantles rails across the US before putting down the final word at Hollywood 16. No wonder his name is on a board.
+</a></div>
+<div class="social-container"><div class="share-socials" data-url="http://www.thrashermagazine.com/articles/videos/jake-ilardi-s-blind-part/" data-title="Share" data-text="Jake dismantles rails across the US before putting down the final word at Hollywood 16. No wonder his name is on a board."></div></div>
+</div>
+</div>
+ </div> 
+<div class="rule"></div>
+</div> 
+<div class="junk-drawer">
+<div class="junk-drawer-title">Junk Drawer</div>
+<ul class="post-list">
+<li class="post-list-item default first">
+<div class="post-date" data-timestamp="4/26/2021">4/26/2021</div>
+<h4 class="post-title"><a class="post-title-link" href="/articles/heroes-and-heavies-mike-anderson/" title="Heroes and Heavies: Mike Anderson">Heroes and Heavies: Mike Anderson</a></h4>
+<div class="post-thumb-container">
+<a class="post-thumb-link" href="/articles/heroes-and-heavies-mike-anderson/" title="Heroes and Heavies: Mike Anderson">
+<img class="post-thumb" src="/mediaV2/k2/items/cache/17bb58af3a5577faf8bb49711341ef5b_S_JD.jpg?t=1619477409" alt="Heroes and Heavies: Mike Anderson" data-width="400" data-height="400" />
+</a>
+</div>
+<div class="post-description">Mike Anderson’s classic style of skating doesn’t exist in a vacuum. From Van Wastell and Gonz to his immediate family in Ventura, Mike sings the praises of his inspirations and the people he couldn’t do it without. As seen in our April ‘21 issue.</div>
+<div class="clear"></div>
+<div class="social-container"><div class="share-socials" data-url="https://www.thrashermagazine.com/articles/heroes-and-heavies-mike-anderson/" data-title="Share" data-text="Mike Anderson’s classic style of skating doesn’t exist in a vacuum. From Van Wastell and Gonz to his immediate family in Ventura, Mike sings the praises of his inspirations and the people he couldn’t do it without. As seen in our April ‘21 issue."></div></div>
+</li><li class="post-list-item default">
+<div class="post-date" data-timestamp="4/26/2021">4/26/2021</div>
+<h4 class="post-title"><a class="post-title-link" href="/articles/videos/jake-ilardi-s-blind-part/" title="Jake Ilardi&amp;#039;s &amp;quot;Coastal Concrete&amp;quot; Part">Jake Ilardi&#039;s &quot;Coastal Concrete&quot; Part</a></h4>
+<div class="post-thumb-container">
+<a class="post-thumb-link" href="/articles/videos/jake-ilardi-s-blind-part/" title="Jake Ilardi&amp;#039;s &amp;quot;Coastal Concrete&amp;quot; Part">
+<img class="post-thumb" src="/mediaV2/k2/items/cache/6a96abbb67b2b232dea8cfa96ef5abaf_S_JD.jpg?t=1619453722" alt="Jake Ilardi&amp;#039;s &amp;quot;Coastal Concrete&amp;quot; Part" data-width="400" data-height="400" />
+</a>
+</div>
+<div class="post-description">Jake dismantles rails across the US before putting down the final word at Hollywood 16. No wonder his name is on a board.</div>
+<div class="clear"></div>
+<div class="social-container"><div class="share-socials" data-url="https://www.thrashermagazine.com/articles/videos/jake-ilardi-s-blind-part/" data-title="Share" data-text="Jake dismantles rails across the US before putting down the final word at Hollywood 16. No wonder his name is on a board."></div></div>
+</li><li class="post-list-item default">
+<div class="post-date" data-timestamp="4/23/2021">4/23/2021</div>
+<h4 class="post-title"><a class="post-title-link" href="/articles/videos/jorge-simoes-bones-part/" title="Jorge Simões&amp;#039; &amp;quot;Bones&amp;quot; Part">Jorge Simões&#039; &quot;Bones&quot; Part</a></h4>
+<div class="post-thumb-container">
+<a class="post-thumb-link" href="/articles/videos/jorge-simoes-bones-part/" title="Jorge Simões&amp;#039; &amp;quot;Bones&amp;quot; Part">
+<img class="post-thumb" src="/mediaV2/k2/items/cache/cb488994402ffd9512214def89c3622b_S_JD.jpg?t=1619194214" alt="Jorge Simões&amp;#039; &amp;quot;Bones&amp;quot; Part" data-width="400" data-height="400" />
+</a>
+</div>
+<div class="post-description">Jorge hits some hefty rails while also flexing his tech chops. Trip on the last clip.</div>
+<div class="clear"></div>
+<div class="social-container"><div class="share-socials" data-url="https://www.thrashermagazine.com/articles/videos/jorge-simoes-bones-part/" data-title="Share" data-text="Jorge hits some hefty rails while also flexing his tech chops. Trip on the last clip."></div></div>
+</li><li class="post-list-item default">
+<div class="post-date" data-timestamp="4/23/2021">4/23/2021</div>
+<h4 class="post-title"><a class="post-title-link" href="/articles/trash/the-something-old-something-new-video/" title="The &amp;quot;Something Old, Something New&amp;quot; Video">The &quot;Something Old, Something New&quot; Video</a></h4>
+<div class="post-thumb-container">
+<a class="post-thumb-link" href="/articles/trash/the-something-old-something-new-video/" title="The &amp;quot;Something Old, Something New&amp;quot; Video">
+<img class="post-thumb" src="/mediaV2/k2/items/cache/e40837b5b682dfd3bf19c4c3c2034511_S_JD.jpg?t=1619214404" alt="The &amp;quot;Something Old, Something New&amp;quot; Video" data-width="400" data-height="400" />
+</a>
+</div>
+<div class="post-description">On the least forgiving ground imaginable, the Detroit scene shows up in full force, wrecking ledges and grinding busted cars. The soundtrack alone will get you stoked.</div>
+<div class="clear"></div>
+<div class="social-container"><div class="share-socials" data-url="https://www.thrashermagazine.com/articles/trash/the-something-old-something-new-video/" data-title="Share" data-text="On the least forgiving ground imaginable, the Detroit scene shows up in full force, wrecking ledges and grinding busted cars. The soundtrack alone will get you stoked."></div></div>
+</li><li class="post-list-item default">
+<div class="post-date" data-timestamp="4/23/2021">4/23/2021</div>
+<h4 class="post-title"><a class="post-title-link" href="/articles/trash/pablo-ramirez-foundation-2/" title="Pablo Ramirez Foundation">Pablo Ramirez Foundation</a></h4>
+<div class="post-thumb-container">
+<a class="post-thumb-link" href="/articles/trash/pablo-ramirez-foundation-2/" title="Pablo Ramirez Foundation">
+<img class="post-thumb" src="/mediaV2/k2/items/cache/c3eb37ed4f796feb29979814d49346a5_S_JD.jpg?t=1619203311" alt="Pablo Ramirez Foundation" data-width="400" data-height="400" />
+</a>
+</div>
+<div class="post-description">We made this gear featuring Pablo’s art especially for the Pablo Ramirez Foundation. You can purchase directly on their website or at KCDC in Brooklyn. We miss you, Pablo.</div>
+<div class="clear"></div>
+<div class="social-container"><div class="share-socials" data-url="https://www.thrashermagazine.com/articles/trash/pablo-ramirez-foundation-2/" data-title="Share" data-text="We made this gear featuring Pablo’s art especially for the Pablo Ramirez Foundation. You can purchase directly on their website or at KCDC in Brooklyn. We miss you, Pablo."></div></div>
+</li><li class="post-list-item default">
+<div class="post-date" data-timestamp="4/23/2021">4/23/2021</div>
+<h4 class="post-title"><a class="post-title-link" href="/articles/trash/creature-s-larb-ball-animation/" title="Creature&amp;#039;s &amp;quot;Larb Ball&amp;quot; Animation">Creature&#039;s &quot;Larb Ball&quot; Animation</a></h4>
+<div class="post-thumb-container">
+<a class="post-thumb-link" href="/articles/trash/creature-s-larb-ball-animation/" title="Creature&amp;#039;s &amp;quot;Larb Ball&amp;quot; Animation">
+<img class="post-thumb" src="/mediaV2/k2/items/cache/a7a6d7e8984032326527c73955e7f0bf_S_JD.jpg?t=1619194635" alt="Creature&amp;#039;s &amp;quot;Larb Ball&amp;quot; Animation" data-width="400" data-height="400" />
+</a>
+</div>
+<div class="post-description">Creature captures the Larb vibe with a new animated short and heavy-metal pinball graphic to go with it.</div>
+<div class="clear"></div>
+<div class="social-container"><div class="share-socials" data-url="https://www.thrashermagazine.com/articles/trash/creature-s-larb-ball-animation/" data-title="Share" data-text="Creature captures the Larb vibe with a new animated short and heavy-metal pinball graphic to go with it."></div></div>
+</li><li class="post-list-item default">
+<div class="post-date" data-timestamp="4/22/2021">4/22/2021</div>
+<h4 class="post-title"><a class="post-title-link" href="/articles/videos/john-gardner-s-shoutout-earth-dc-part/" title="John Gardner&amp;#039;s &amp;quot;Shoutout Earth&amp;quot; DC Part">John Gardner&#039;s &quot;Shoutout Earth&quot; DC Part</a></h4>
+<div class="post-thumb-container">
+<a class="post-thumb-link" href="/articles/videos/john-gardner-s-shoutout-earth-dc-part/" title="John Gardner&amp;#039;s &amp;quot;Shoutout Earth&amp;quot; DC Part">
+<img class="post-thumb" src="/mediaV2/k2/items/cache/fedea9483dc168a73638ce5f5263407e_S_JD.jpg?t=1619117701" alt="John Gardner&amp;#039;s &amp;quot;Shoutout Earth&amp;quot; DC Part" data-width="400" data-height="400" />
+</a>
+</div>
+<div class="post-description">John rolls through concrete, asphalt, dirt, turf and grass in this all-terrain homage to the Earth.</div>
+<div class="clear"></div>
+<div class="social-container"><div class="share-socials" data-url="https://www.thrashermagazine.com/articles/videos/john-gardner-s-shoutout-earth-dc-part/" data-title="Share" data-text="John rolls through concrete, asphalt, dirt, turf and grass in this all-terrain homage to the Earth."></div></div>
+</li><li class="post-list-item default">
+<div class="post-date" data-timestamp="4/22/2021">4/22/2021</div>
+<h4 class="post-title"><a class="post-title-link" href="/articles/skateboarding-is-hilarious-an-interview-with-comedian-taylor-clark/" title="Skateboarding is Hilarious: An Interview with Comedian Taylor Clark">Skateboarding is Hilarious: An Interview with Comedian Taylor Clark</a></h4>
+<div class="post-thumb-container">
+<a class="post-thumb-link" href="/articles/skateboarding-is-hilarious-an-interview-with-comedian-taylor-clark/" title="Skateboarding is Hilarious: An Interview with Comedian Taylor Clark">
+<img class="post-thumb" src="/mediaV2/k2/items/cache/557163d28720f5453f1194cf9e2c9be8_S_JD.jpg?t=1619120633" alt="Skateboarding is Hilarious: An Interview with Comedian Taylor Clark" data-width="400" data-height="400" />
+</a>
+</div>
+<div class="post-description">Taylor Clark is a stand-up comic who skates. We hopped on a session to get his insights on the crossover between skateboarding and comedy, and how skating prepared him for NYC’s brutal open-mic scene. As seen in the May ‘21 issue.</div>
+<div class="clear"></div>
+<div class="social-container"><div class="share-socials" data-url="https://www.thrashermagazine.com/articles/skateboarding-is-hilarious-an-interview-with-comedian-taylor-clark/" data-title="Share" data-text="Taylor Clark is a stand-up comic who skates. We hopped on a session to get his insights on the crossover between skateboarding and comedy, and how skating prepared him for NYC’s brutal open-mic scene. As seen in the May ‘21 issue."></div></div>
+</li><li class="post-list-item default">
+<div class="post-date" data-timestamp="4/22/2021">4/22/2021</div>
+<h4 class="post-title"><a class="post-title-link" href="/articles/trash/happy-birthday-van-wastell-4-22-2021/" title="Happy Birthday Van Wastell 4-22-2021">Happy Birthday Van Wastell 4-22-2021</a></h4>
+<div class="post-thumb-container">
+<a class="post-thumb-link" href="/articles/trash/happy-birthday-van-wastell-4-22-2021/" title="Happy Birthday Van Wastell 4-22-2021">
+<img class="post-thumb" src="/mediaV2/k2/items/cache/8e3f76deda0742ab366fcc60afc32e07_S_JD.jpg?t=1619126633" alt="Happy Birthday Van Wastell 4-22-2021" data-width="400" data-height="400" />
+</a>
+</div>
+<div class="post-description">Van’s brother discusses recovering old clips and their shared passion for the music used in this tribute edit. Gone but never forgotten.</div>
+<div class="clear"></div>
+<div class="social-container"><div class="share-socials" data-url="https://www.thrashermagazine.com/articles/trash/happy-birthday-van-wastell-4-22-2021/" data-title="Share" data-text="Van’s brother discusses recovering old clips and their shared passion for the music used in this tribute edit. Gone but never forgotten."></div></div>
+</li><li class="post-list-item default">
+<div class="post-date" data-timestamp="4/22/2021">4/22/2021</div>
+<h4 class="post-title"><a class="post-title-link" href="/articles/trash/miles-griptape/" title="Miles Griptape Site Launch">Miles Griptape Site Launch</a></h4>
+<div class="post-thumb-container">
+<a class="post-thumb-link" href="/articles/trash/miles-griptape/" title="Miles Griptape Site Launch">
+<img class="post-thumb" src="/mediaV2/k2/items/cache/e0cf558d018b5cde5fba079bf27d673b_S_JD.jpg?t=1619126672" alt="Miles Griptape Site Launch" data-width="400" data-height="400" />
+</a>
+</div>
+<div class="post-description">The squad is stacked and the grip is top-notch. Check out their freshly launched site for more.</div>
+<div class="clear"></div>
+<div class="social-container"><div class="share-socials" data-url="https://www.thrashermagazine.com/articles/trash/miles-griptape/" data-title="Share" data-text="The squad is stacked and the grip is top-notch. Check out their freshly launched site for more."></div></div>
+</li></ul>
+</div>
+<div class="featured-content">
+<ul class="post-list">
+<li class="post-list-item default first">
+<div class="post-date" data-timestamp="4/26/2021">4/26/2021</div>
+<h4 class="post-title"><a class="post-title-link" href="/articles/heroes-and-heavies-mike-anderson/" title="Heroes and Heavies: Mike Anderson">Heroes and Heavies: Mike Anderson</a></h4>
+<div class="post-thumb-container">
+<a class="post-thumb-link" href="/articles/heroes-and-heavies-mike-anderson/" title="Heroes and Heavies: Mike Anderson">
+<img class="post-thumb" src="/mediaV2/k2/items/cache/17bb58af3a5577faf8bb49711341ef5b_M.jpg?t=1619480530" alt="Heroes and Heavies: Mike Anderson" data-width="438" data-height="246" />
+</a>
+</div>
+<div class="post-description">Mike Anderson’s classic style of skating doesn’t exist in a vacuum. From Van Wastell and Gonz to his immediate family in Ventura, Mike sings the praises of his inspirations and the people he couldn’t do it without. As seen in our April ‘21 issue.</div>
+<div class="clear"></div>
+<div class="social-container"><div class="share-socials" data-url="https://www.thrashermagazine.com/articles/heroes-and-heavies-mike-anderson/" data-title="Share" data-text="Mike Anderson’s classic style of skating doesn’t exist in a vacuum. From Van Wastell and Gonz to his immediate family in Ventura, Mike sings the praises of his inspirations and the people he couldn’t do it without. As seen in our April ‘21 issue."></div></div>
+</li>
+<li class="post-list-item default">
+<div class="post-date" data-timestamp="4/26/2021">4/26/2021</div>
+<h4 class="post-title"><a class="post-title-link" href="/articles/videos/challers-van-nuys-city-hall-video/" title="CHALLERS' &quot;Van Nuys City Hall&quot; Video">CHALLERS' "Van Nuys City Hall" Video</a></h4>
+<div class="post-thumb-container">
+<a class="post-thumb-link" href="/articles/videos/challers-van-nuys-city-hall-video/" title="CHALLERS' &quot;Van Nuys City Hall&quot; Video">
+<img class="post-thumb" src="/mediaV2/k2/items/cache/68426891b2f2be82a7c1e8cc2a9f9a74_M.jpg?t=1619480530" alt="CHALLERS' &quot;Van Nuys City Hall&quot; Video" data-width="438" data-height="246" />
+</a>
+</div>
+<div class="post-description">Erik Hererra, Hart Pullman, Zach Allen and more fill out this hyper-local full-length as they unlock new potential at their City Hall.</div>
+<div class="clear"></div>
+<div class="social-container"><div class="share-socials" data-url="https://www.thrashermagazine.com/articles/videos/challers-van-nuys-city-hall-video/" data-title="Share" data-text="Erik Hererra, Hart Pullman, Zach Allen and more fill out this hyper-local full-length as they unlock new potential at their City Hall."></div></div>
+</li>
+<li class="post-list-item default">
+<div class="post-date" data-timestamp="4/26/2021">4/26/2021</div>
+<h4 class="post-title"><a class="post-title-link" href="/articles/videos/satori-wheels-we-ed-rather-be-skateboarding-promo/" title="Satori Wheels' &quot;We'ed Rather Be Skateboarding&quot; Promo">Satori Wheels' "We'ed Rather Be Skateboarding" Promo</a></h4>
+<div class="post-thumb-container">
+<a class="post-thumb-link" href="/articles/videos/satori-wheels-we-ed-rather-be-skateboarding-promo/" title="Satori Wheels' &quot;We'ed Rather Be Skateboarding&quot; Promo">
+<img class="post-thumb" src="/mediaV2/k2/items/cache/a654e5552638215812fbc40001e7cc00_M.jpg?t=1619480530" alt="Satori Wheels' &quot;We'ed Rather Be Skateboarding&quot; Promo" data-width="438" data-height="246" />
+</a>
+</div>
+<div class="post-description">Tommy Sandoval, Dela, Neen and the Satori squad celebrate 4/20 with wild rides and good vibes.</div>
+<div class="clear"></div>
+<div class="social-container"><div class="share-socials" data-url="https://www.thrashermagazine.com/articles/videos/satori-wheels-we-ed-rather-be-skateboarding-promo/" data-title="Share" data-text="Tommy Sandoval, Dela, Neen and the Satori squad celebrate 4/20 with wild rides and good vibes."></div></div>
+</li>
+<li class="post-list-item default">
+<div class="post-date" data-timestamp="4/26/2021">4/26/2021</div>
+<h4 class="post-title"><a class="post-title-link" href="/articles/skateboarding-is-hilarious-an-interview-with-comedian-taylor-clark/" title="Skateboarding is Hilarious: An Interview with Comedian Taylor Clark">Skateboarding is Hilarious: An Interview with Comedian Taylor Clark</a></h4>
+<div class="post-thumb-container">
+<a class="post-thumb-link" href="/articles/skateboarding-is-hilarious-an-interview-with-comedian-taylor-clark/" title="Skateboarding is Hilarious: An Interview with Comedian Taylor Clark">
+<img class="post-thumb" src="/mediaV2/k2/items/cache/557163d28720f5453f1194cf9e2c9be8_M.jpg?t=1619480530" alt="Skateboarding is Hilarious: An Interview with Comedian Taylor Clark" data-width="438" data-height="246" />
+</a>
+</div>
+<div class="post-description">Taylor Clark is a stand-up comic who skates. We hopped on a session to get his insights on the crossover between skateboarding and comedy, and how skating prepared him for NYC’s brutal open-mic scene. As seen in the May ‘21 issue.</div>
+<div class="clear"></div>
+<div class="social-container"><div class="share-socials" data-url="https://www.thrashermagazine.com/articles/skateboarding-is-hilarious-an-interview-with-comedian-taylor-clark/" data-title="Share" data-text="Taylor Clark is a stand-up comic who skates. We hopped on a session to get his insights on the crossover between skateboarding and comedy, and how skating prepared him for NYC’s brutal open-mic scene. As seen in the May ‘21 issue."></div></div>
+</li>
+<li class="post-list-item default">
+<div class="post-date" data-timestamp="4/26/2021">4/26/2021</div>
+<h4 class="post-title"><a class="post-title-link" href="/articles/videos/ace-trucks-our-turn-video/" title="ACE Trucks' &quot;Our Turn&quot; Video">ACE Trucks' "Our Turn" Video</a></h4>
+<div class="post-thumb-container">
+<a class="post-thumb-link" href="/articles/videos/ace-trucks-our-turn-video/" title="ACE Trucks' &quot;Our Turn&quot; Video">
+<img class="post-thumb" src="/mediaV2/k2/items/cache/c6eb07bab96f1d42e7b0d7b5df4be42d_M.jpg?t=1619480530" alt="ACE Trucks' &quot;Our Turn&quot; Video" data-width="438" data-height="246" />
+</a>
+</div>
+<div class="post-description">Deedz, Jacopo, Ronnie, Leo Baker, BA and more fly in formation, covering damn near every corner of the globe before Keegan McCutchen brings it home with his signature grace.</div>
+<div class="clear"></div>
+<div class="social-container"><div class="share-socials" data-url="https://www.thrashermagazine.com/articles/videos/ace-trucks-our-turn-video/" data-title="Share" data-text="Deedz, Jacopo, Ronnie, Leo Baker, BA and more fly in formation, covering damn near every corner of the globe before Keegan McCutchen brings it home with his signature grace."></div></div>
+</li>
+<li class="post-list-item default">
+<div class="post-date" data-timestamp="4/26/2021">4/26/2021</div>
+<h4 class="post-title"><a class="post-title-link" href="/articles/videos/skateline-04-20-2021/" title="SKATELINE: 04.20.2021">SKATELINE: 04.20.2021</a></h4>
+<div class="post-thumb-container">
+<a class="post-thumb-link" href="/articles/videos/skateline-04-20-2021/" title="SKATELINE: 04.20.2021">
+<img class="post-thumb" src="/mediaV2/k2/items/cache/b880e7b271734c3dd5efe4f9d74b57d7_M.jpg?t=1619480530" alt="SKATELINE: 04.20.2021" data-width="438" data-height="246" />
+</a>
+</div>
+<div class="post-description">Tony Hawk mashes in Hawaii, Dashawn Jordan's <em>Vaccine</em> part, Patrick Praman's REAL part, Keegan McCutchen in the Ace video and more in today's episode of Skateline.</div>
+<div class="clear"></div>
+<div class="social-container"><div class="share-socials" data-url="https://www.thrashermagazine.com/articles/videos/skateline-04-20-2021/" data-title="Share" data-text="Tony Hawk mashes in Hawaii, Dashawn Jordan's Vaccine part, Patrick Praman's REAL part, Keegan McCutchen in the Ace video and more in today's episode of Skateline."></div></div>
+</li>
+<li class="post-list-item default">
+<div class="post-date" data-timestamp="4/26/2021">4/26/2021</div>
+<h4 class="post-title"><a class="post-title-link" href="/articles/videos/masher-tony-hawk/" title="MASHER: Tony Hawk">MASHER: Tony Hawk</a></h4>
+<div class="post-thumb-container">
+<a class="post-thumb-link" href="/articles/videos/masher-tony-hawk/" title="MASHER: Tony Hawk">
+<img class="post-thumb" src="/mediaV2/k2/items/cache/c5e03173e7b8ac8a5057476086f43883_M.jpg?t=1619480530" alt="MASHER: Tony Hawk" data-width="438" data-height="246" />
+</a>
+</div>
+<div class="post-description">The Birdman summons <em>Endless Summer</em> vibes on the Big Island with Riley, Keegan and a tight crew for some spine dancing and deep-sea swimming.</div>
+<div class="clear"></div>
+<div class="social-container"><div class="share-socials" data-url="https://www.thrashermagazine.com/articles/videos/masher-tony-hawk/" data-title="Share" data-text="The Birdman summons Endless Summer vibes on the Big Island with Riley, Keegan and a tight crew for some spine dancing and deep-sea swimming."></div></div>
+</li>
+<li class="post-list-item default">
+<div class="post-date" data-timestamp="4/26/2021">4/26/2021</div>
+<h4 class="post-title"><a class="post-title-link" href="/articles/videos/homies-ep-9-super-session/" title="Homies Ep.9: Super Session">Homies Ep.9: Super Session</a></h4>
+<div class="post-thumb-container">
+<a class="post-thumb-link" href="/articles/videos/homies-ep-9-super-session/" title="Homies Ep.9: Super Session">
+<img class="post-thumb" src="/mediaV2/k2/items/cache/a745ec0a4f683ca5efa3f376df071af7_M.jpg?t=1619480530" alt="Homies Ep.9: Super Session" data-width="438" data-height="246" />
+</a>
+</div>
+<div class="post-description">Pedro Barros and Raney get it crackin’ at T.I. before Ishod, Zion, Sorgente, Foy and more burn down the Babylon bowl. These dogs are off the chain.</div>
+<div class="clear"></div>
+<div class="social-container"><div class="share-socials" data-url="https://www.thrashermagazine.com/articles/videos/homies-ep-9-super-session/" data-title="Share" data-text="Pedro Barros and Raney get it crackin’ at T.I. before Ishod, Zion, Sorgente, Foy and more burn down the Babylon bowl. These dogs are off the chain."></div></div>
+</li>
+<li class="post-list-item default">
+<div class="post-date" data-timestamp="4/26/2021">4/26/2021</div>
+<h4 class="post-title"><a class="post-title-link" href="/articles/videos/christian-holt-s-sleep-part/" title="Christian Holt's &quot;Sleep&quot; Part">Christian Holt's "Sleep" Part</a></h4>
+<div class="post-thumb-container">
+<a class="post-thumb-link" href="/articles/videos/christian-holt-s-sleep-part/" title="Christian Holt's &quot;Sleep&quot; Part">
+<img class="post-thumb" src="/mediaV2/k2/items/cache/77b645a105be59d5f61086198ed52db7_M.jpg?t=1619480530" alt="Christian Holt's &quot;Sleep&quot; Part" data-width="438" data-height="246" />
+</a>
+</div>
+<div class="post-description">A mean arsenal of flip tricks partnered with pure confidence makes Christian’s part feel like a sequence from your best skate dream. Enjoy...</div>
+<div class="clear"></div>
+<div class="social-container"><div class="share-socials" data-url="https://www.thrashermagazine.com/articles/videos/christian-holt-s-sleep-part/" data-title="Share" data-text="A mean arsenal of flip tricks partnered with pure confidence makes Christian’s part feel like a sequence from your best skate dream. Enjoy..."></div></div>
+</li>
+<li class="post-list-item default">
+<div class="post-date" data-timestamp="4/26/2021">4/26/2021</div>
+<h4 class="post-title"><a class="post-title-link" href="/articles/videos/real-skateboards-presents-patrick-praman/" title="REAL Skateboards Presents Patrick Praman">REAL Skateboards Presents Patrick Praman</a></h4>
+<div class="post-thumb-container">
+<a class="post-thumb-link" href="/articles/videos/real-skateboards-presents-patrick-praman/" title="REAL Skateboards Presents Patrick Praman">
+<img class="post-thumb" src="/mediaV2/k2/items/cache/8b98ee28ff44c1bf6cf301e412b26d38_M.jpg?t=1619480530" alt="REAL Skateboards Presents Patrick Praman" data-width="438" data-height="246" />
+</a>
+</div>
+<div class="post-description">REAL’s newest am unleashes a barrage of bangers on a host of notorious spots, as his teammates back him up. Congrats, Pat. This is well deserved.</div>
+<div class="clear"></div>
+<div class="social-container"><div class="share-socials" data-url="https://www.thrashermagazine.com/articles/videos/real-skateboards-presents-patrick-praman/" data-title="Share" data-text="REAL’s newest am unleashes a barrage of bangers on a host of notorious spots, as his teammates back him up. Congrats, Pat. This is well deserved."></div></div>
+</li>
+</ul>
+</div>
+<div class="extra-content">
+<div class="departments-listing">
+<div class="departments-label">Departments</div>
+<ul class="accordion-listing">
+<li class="accordion-listing-item first" data-previews-url="/templates/thrasher_protostar/html/globalIncludes/quickFlowGetter.php?outsideRequest=true&previews=true&tagOverride=1356&post-list=true">
+<div class="listing-item-title-container">
+<div class="title"><a class="listing-item-title-link" href="/firing-line/">Firing Line</a></div>
+<div class="arrow-icon"></div>
+</div>
+<ul class="accordion-list">
+</ul>
+</li>
+<li class="accordion-listing-item" data-previews-url="/templates/thrasher_protostar/html/globalIncludes/quickFlowGetter.php?outsideRequest=true&previews=true&tagOverride=5305&post-list=true">
+<div class="listing-item-title-container">
+<div class="title"><a class="listing-item-title-link" href="/full-parts/">Full Parts</a></div>
+<div class="arrow-icon"></div>
+</div>
+<ul class="accordion-list">
+</ul>
+</li>
+<li class="accordion-listing-item" data-previews-url="/templates/thrasher_protostar/html/globalIncludes/quickFlowGetter.php?outsideRequest=true&previews=true&tagOverride=38&post-list=true">
+<div class="listing-item-title-container">
+<div class="title"><a class="listing-item-title-link" href="/burnout/">Burnout</a></div>
+<div class="arrow-icon"></div>
+</div>
+<ul class="accordion-list">
+</ul>
+</li>
+<li class="accordion-listing-item" data-previews-url="/templates/thrasher_protostar/html/globalIncludes/quickFlowGetter.php?outsideRequest=true&previews=true&tagOverride=1439&post-list=true">
+<div class="listing-item-title-container">
+<div class="title"><a class="listing-item-title-link" href="/hall-of-meat/">Hall Of Meat</a></div>
+<div class="arrow-icon"></div>
+ </div>
+<ul class="accordion-list">
+</ul>
+</li>
+<li class="accordion-listing-item" data-previews-url="/templates/thrasher_protostar/html/globalIncludes/quickFlowGetter.php?outsideRequest=true&previews=true&tagOverride=1979&post-list=true">
+<div class="listing-item-title-container">
+<div class="title"><a class="listing-item-title-link" href="/magnified/">Magnified</a></div>
+<div class="arrow-icon"></div>
+</div>
+<ul class="accordion-list">
+</ul>
+</li>
+<li class="accordion-listing-item" data-previews-url="/templates/thrasher_protostar/html/globalIncludes/quickFlowGetter.php?outsideRequest=true&previews=true&tagOverride=4717&post-list=true">
+<div class="listing-item-title-container">
+<div class="title"><a class="listing-item-title-link" href="/bruray/">BruRay</a></div>
+<div class="arrow-icon"></div>
+</div>
+<ul class="accordion-list">
+</ul>
+</li>
+<li class="accordion-listing-item" data-previews-url="/templates/thrasher_protostar/html/globalIncludes/quickFlowGetter.php?outsideRequest=true&previews=true&tagOverride=1533&post-list=true">
+<div class="listing-item-title-container">
+<div class="title"><a class="listing-item-title-link" href="/tag/fatback/">Fatback</a></div>
+<div class="arrow-icon"></div>
+</div>
+<ul class="accordion-list">
+</ul>
+</li>
+<li class="accordion-listing-item" data-previews-url="/templates/thrasher_protostar/html/globalIncludes/quickFlowGetter.php?outsideRequest=true&previews=true&tagOverride=4363&post-list=true">
+<div class="listing-item-title-container">
+<div class="title"><a class="listing-item-title-link" href="/skateline/">Skateline</a></div>
+<div class="arrow-icon"></div>
+</div>
+<ul class="accordion-list">
+</ul>
+</li>
+<li class="accordion-listing-item" data-previews-url="/templates/thrasher_protostar/html/globalIncludes/quickFlowGetter.php?outsideRequest=true&previews=true&tagOverride=1169&post-list=true">
+<div class="listing-item-title-container">
+<div class="title"><a class="listing-item-title-link" href="/double-rock/">Double Rock</a></div>
+<div class="arrow-icon"></div>
+</div>
+<ul class="accordion-list">
+</ul>
+</li>
+<li class="accordion-listing-item" data-previews-url="/templates/thrasher_protostar/html/globalIncludes/quickFlowGetter.php?outsideRequest=true&previews=true&tagOverride=4350&post-list=true">
+<div class="listing-item-title-container">
+<div class="title"><a class="listing-item-title-link" href="/bffs/">BFFS</a></div>
+<div class="arrow-icon"></div>
+</div>
+<ul class="accordion-list">
+</ul>
+</li>
+<li class="accordion-listing-item" data-previews-url="/templates/thrasher_protostar/html/globalIncludes/quickFlowGetter.php?outsideRequest=true&previews=true&tagOverride=1015&post-list=true">
+<div class="listing-item-title-container">
+<div class="title"><a class="listing-item-title-link" href="/tag/classics/">Classics</a></div>
+<div class="arrow-icon"></div>
+</div>
+<ul class="accordion-list">
+</ul>
+</li>
+<li class="accordion-listing-item" data-previews-url="/templates/thrasher_protostar/html/globalIncludes/quickFlowGetter.php?outsideRequest=true&previews=true&tagOverride=5036&post-list=true">
+<div class="listing-item-title-container">
+<div class="title"><a class="listing-item-title-link" href="/tag/classic-covers/">Classic Covers</a></div>
+<div class="arrow-icon"></div>
+</div>
+<ul class="accordion-list">
+</ul>
+</li>
+<li class="accordion-listing-item" data-previews-url="/templates/thrasher_protostar/html/globalIncludes/quickFlowGetter.php?outsideRequest=true&previews=true&tagOverride=4523&post-list=true">
+<div class="listing-item-title-container">
+<div class="title"><a class="listing-item-title-link" href="/tag/thrasher-radio/">Thrasher Radio</a></div>
+<div class="arrow-icon"></div>
+</div>
+<ul class="accordion-list">
+</ul>
+</li>
+<li class="accordion-listing-item" data-previews-url="/templates/thrasher_protostar/html/globalIncludes/quickFlowGetter.php?outsideRequest=true&previews=true&tagOverride=5076&post-list=true">
+<div class="listing-item-title-container">
+<div class="title"><a class="listing-item-title-link" href="/tag/hot-spot/">Hot Spot</a></div>
+<div class="arrow-icon"></div>
+</div>
+<ul class="accordion-list">
+</ul>
+</li>
+<li class="accordion-listing-item" data-previews-url="/templates/thrasher_protostar/html/globalIncludes/quickFlowGetter.php?outsideRequest=true&previews=true&tagOverride=4624&post-list=true">
+<div class="listing-item-title-container">
+<div class="title"><a class="listing-item-title-link" href="/tag/traffic-talk/">Traffic Talk</a></div>
+<div class="arrow-icon"></div>
+</div>
+<ul class="accordion-list">
+</ul>
+</li>
+<li class="accordion-listing-item" data-previews-url="/templates/thrasher_protostar/html/globalIncludes/quickFlowGetter.php?outsideRequest=true&previews=true&tagOverride=39&post-list=true">
+<div class="listing-item-title-container">
+<div class="title"><a class="listing-item-title-link" href="/tag/five-sequences/">Five Sequences</a></div>
+<div class="arrow-icon"></div>
+</div>
+<ul class="accordion-list">
+</ul>
+</li>
+<li class="accordion-listing-item" data-previews-url="/templates/thrasher_protostar/html/globalIncludes/quickFlowGetter.php?outsideRequest=true&previews=true&tagOverride=633&post-list=true">
+<div class="listing-item-title-container">
+<div class="title"><a class="listing-item-title-link" href="/tag/first-look/">First Look</a></div>
+<div class="arrow-icon"></div>
+</div>
+<ul class="accordion-list">
+</ul>
+</li>
+<li class="accordion-listing-item" data-previews-url="/templates/thrasher_protostar/html/globalIncludes/quickFlowGetter.php?outsideRequest=true&previews=true&tagOverride=784&post-list=true">
+<div class="listing-item-title-container">
+<div class="title"><a class="listing-item-title-link" href="/tag/king-of-the-road/">King of the Road</a></div>
+<div class="arrow-icon"></div>
+</div>
+<ul class="accordion-list">
+</ul>
+</li>
+<li class="accordion-listing-item" data-previews-url="/templates/thrasher_protostar/html/globalIncludes/quickFlowGetter.php?outsideRequest=true&previews=true&tagOverride=4887&post-list=true">
+<div class="listing-item-title-container">
+<div class="title"><a class="listing-item-title-link" href="/tag/time-bomb/">TIme Bomb</a></div>
+<div class="arrow-icon"></div>
+</div>
+<ul class="accordion-list">
+</ul>
+</li>
+<li class="accordion-listing-item" data-previews-url="/templates/thrasher_protostar/html/globalIncludes/quickFlowGetter.php?outsideRequest=true&previews=true&tagOverride=5064&post-list=true">
+<div class="listing-item-title-container">
+<div class="title"><a class="listing-item-title-link" href="/tag/my-war/">My War</a></div>
+<div class="arrow-icon"></div>
+</div>
+<ul class="accordion-list">
+</ul>
+</li>
+<li class="accordion-listing-item" data-previews-url="/templates/thrasher_protostar/html/globalIncludes/quickFlowGetter.php?outsideRequest=true&previews=true&tagOverride=7&post-list=true">
+<div class="listing-item-title-container">
+<div class="title"><a class="listing-item-title-link" href="/contests/">Contests</a></div>
+<div class="arrow-icon"></div>
+</div>
+<ul class="accordion-list">
+</ul>
+</li>
+<noscript></noscript>
+</ul>
+</div> 
+<div class="events-listing events_module">
+<div class="events-label">Events</div>
+<ul>
+</ul>
+</div>
+<div class="custom subscribeAd">
+<div class="ad-container"></div></div>
+<div class="in-the-mag">
+<div class="in-the-mag-label">In The Mag</div>
+<a href="http://shop.thrashermagazine.com/magazines/current-issue/current-issue-thrasher-magazine-june-2021.html"><img src="https://shop.thrashermagazine.com/media/catalog/product//2/0/2021_june_cover_300.jpg" alt="cv1th1119 650px" width="300" height="388" style="height: 388px; width: 300px; float: left;"></a>
+<div class="in-the-mag"><span class="MagBody"></span></div>
+</div> </div> 
+
+<div class="infinite-scroll-next" data-next-page="/tag/junk-drawer/page/1/"></div> <div class="pagination bottom">
+<ul class="pagination-list"><li class="pagination-list-item disabled"><a class="pagination-list-link"><i class="icon-first"></i></a></li><li class="pagination-list-item disabled"><a class="pagination-list-link"><i class="icon-previous"></i></a></li><li class="pagination-list-item active"><a class="pagination-list-link">1</a></li><li class="pagination-list-item"><a title="2" href="/tag/junk-drawer/page/1/" class="pagination-list-link pagenav">2</a></li><li class="pagination-list-item"><a title="3" href="/tag/junk-drawer/page/2/" class="pagination-list-link pagenav">3</a></li><li class="pagination-list-item"><a title="4" href="/tag/junk-drawer/page/3/" class="pagination-list-link pagenav">4</a></li><li class="pagination-list-item"><a title="5" href="/tag/junk-drawer/page/4/" class="pagination-list-link pagenav">...</a></li><li class="pagination-list-item"><a title="6" href="/tag/junk-drawer/page/5/" class="pagination-list-link pagenav">6</a></li><li class="pagination-list-item"><a title="7" href="/tag/junk-drawer/page/6/" class="pagination-list-link pagenav">7</a></li><li class="pagination-list-item"><a title="8" href="/tag/junk-drawer/page/7/" class="pagination-list-link pagenav">8</a></li><li class="pagination-list-item"><a title="9" href="/tag/junk-drawer/page/8/" class="pagination-list-link pagenav">9</a></li><li class="pagination-list-item"><a title="10" href="/tag/junk-drawer/page/9/" class="pagination-list-link pagenav">10</a></li><li class="pagination-list-item"><a title="Next" href="/tag/junk-drawer/page/1/" class="pagination-list-link pagenav"><i class="icon-next"></i></a></li><li class="pagination-list-item"><a title="End" href="/tag/junk-drawer/page/1800/" class="pagination-list-link pagenav"><i class="icon-last"></i></a></li></ul> Page 1 of 1801 </div>
+</div>
+
+</div> 
+</div> 
+</div> 
+<div class="main-footer-container">
+<div class="main-footer">
+<div class="copyright">&copy; 1981&ndash;2021 High Speed Productions, Inc.</div>
+</div>
+</div> 
+</div> 
+</div> 
+</div> 
+<script class="post-list-item-default" type="text/mustache"><li class="post-list-item default{{#first}} first{{/first}}">
+  <div class="post-date" data-timestamp="{{timestamp}}">{{{date_html}}}</div>
+  <h4 class="post-title"><a class="post-title-link" href="/{{link_url}}" title="{{link_title}}">{{{title_html}}}</a></h4>
+  <div class="post-thumb-container">
+    <a class="post-thumb-link" href="/{{link_url}}" title="{{link_title}}">
+    <img class="post-thumb{{#image_class}} {{image_class}}{{/image_class}}" src="/{{image_url}}" alt="{{image_alt}}" data-width="{{image_width}}" data-height="{{image_height}}" {{#image_class}}data-image-class="{{image_class}}" {{/image_class}}/>
+    </a>
+  </div>
+  <div class="post-description">{{{description_html}}}</div>
+  <div class="clear"></div>
+  <div class="social-container"><div class="share-socials" data-url="{{share_link}}" data-title="{{share_title}}" data-text="{{share_text}}"></div></div>
+</li></script>
+<script class="post-list-item-junk-drawer" type="text/mustache"><li class="post-list-item junk-drawer-item{{#first}} first{{/first}}">
+  <h4 class="post-title"><a class="post-title-link" href="/{{link_url}}" title="{{link_title}}">{{{title_html}}}</a></h4>
+  <div class="post-thumb-container" style="">
+    <a class="post-thumb-link" href="/{{link_url}}" title="{{link_title}}">
+      <img class="post-thumb{{#image_class}} {{image_class}}{{/image_class}}" src="/{{image_url}}" alt="{{image_alt}}" />
+    </a>
+  </div>
+  <div class="post-description">{{{description_html}}}</div>
+  
+  <div class="social-outer-container clear"><div class="social-container"><div class="share-socials" data-url="{{share_link}}" data-title="{{share_title}}" data-text="{{share_text}}"></div></div></div>
+  
+</li></script>
+<script class="post-list-item-featured" type="text/mustache"><li class="post-list-item featured{{#first}} first{{/first}}">
+  <div class="post-thumb-container">
+    <a class="post-thumb-link" href="/{{link_url}}" title="{{link_title}}">
+      <img class="post-thumb{{#image_class}} {{image_class}}{{/image_class}}" src="/{{image_url}}" alt="{{image_alt}}" />
+    </a>
+  </div>
+  <h4 class="post-title"><a class="post-title-link" href="/{{link_url}}" title="{{link_title}}">{{{title_html}}}</a></h4>
+  <div class="post-description">{{{description_html}}}</div>
+</li></script>
+<script class="post-list-item-listing" type="text/mustache"><li class="post-list-item listing{{#first}} first{{/first}}">
+  <div class="post-thumb-container">
+    <a class="post-thumb-link" href="/{{link_url}}" title="{{link_title}}">
+      <img class="post-thumb{{#image_class}} {{image_class}}{{/image_class}}" src="/{{image_url}}" alt="{{image_alt}}" />
+    </a>
+  </div>
+  <div class="post-content-container">
+    <h4 class="post-title"><a class="post-title-link" href="/{{link_url}}" title="{{link_title}}">{{{title_html}}}</a></h4>
+    <div class="post-description">{{{description_html}}}</div>
+    <div class="social-container"><div class="share-socials" data-url="{{share_link}}" data-title="{{share_title}}" data-text="{{share_text}}"></div></div>
+  </div>
+  <div class="clear"></div>
+</li></script>
+<script class="post-list-item-secondary" type="text/mustache"><li class="post-list-item secondary{{#first}} first{{/first}}">
+  <h4 class="post-title"><a class="post-title-link" href="/{{link_url}}" title="{{link_title}}">{{{title_html}}}</a></h4>
+  <div class="post-thumb-container" style="">
+    <a class="post-thumb-link" href="/{{link_url}}" title="{{link_title}}">
+      <img class="post-thumb{{#image_class}} {{image_class}}{{/image_class}}" src="/{{image_url}}" alt="{{image_alt}}" />
+    </a>
+  </div>
+  <div class="post-description">{{{description_html}}}</div>
+  <div class="clear"></div>
+</li></script>
+<script class="post-list-item-search-results" type="text/mustache"><li class="post-list-item search-results-item{{#first}} first{{/first}}">
+  <div class="post-thumb-container">
+    <a class="post-thumb-link" href="/{{link_url}}" title="{{link_title}}">
+      <img class="post-thumb{{#image_class}} {{image_class}}{{/image_class}}" src="/{{image_url}}" alt="{{image_alt}}" />
+    </a>
+  </div>
+  <div class="post-content-container">
+    <h4 class="post-title"><a class="post-title-link" href="/{{link_url}}" title="{{link_title}}">{{{title_html}}}</a></h4>
+    <div class="post-description">{{{description_html}}}</div>
+    <div class="social-container"><div class="share-socials" data-url="{{share_link}}" data-title="{{share_title}}" data-text="{{share_text}}"></div></div>
+  </div>
+  <div class="clear"></div>
+</li></script>
+<script class="preview-list-item" type="text/mustache"><li class="preview-list-item">
+  <a class="preview-link" href="/{{link_url}}" title="{{link_title}}" data-article-id="{{article_id}}">
+    <img class="preview-thumb{{#image_class}} {{image_class}}{{/image_class}}" src="/{{image_url}}" alt="{{image_alt}}" />
+    <span class="preview-title">{{{title_html}}}</span>
+  </a>
+</li></script>
+<script class="preview-slider-item" type="text/mustache"><li class="preview-slider-list-item{{#first}} first{{/first}}">
+  <a class="preview-link" href="/{{link_url}}" title="{{link_title}}" data-article-id="{{article_id}}">
+    <span class="thumb-container"><img class="preview-thumb{{#image_class}} {{image_class}}{{/image_class}}" src="/{{image_url}}" alt="{{image_alt}}" /></span>
+    <span class="preview-title-container"><span class="preview-title">{{{title_html}}}</span></span>
+  </a>
+</li></script>
+<script class="article" type="text/mustache"><div class="article"{{#ad_test_key}} data-ad-test-key="{{ad_test_key}}"{{/ad_test_key}}>
+  
+  {{#landing_page_header}}<div class="landing-page-header-container" data-header="{{landing_page_header}}" data-size="{{landing_page_size}}" data-link="{{landing_page_link}}"></div>{{/landing_page_header}}
+  
+  {{#has_hero}}
+  <div class="article-hero-container">
+    
+    {{#hero_image_url}}
+    <img class="article-image" src="/{{hero_image_url}}" alt="{{hero_image_url}}" />
+    {{/hero_image_url}}
+      
+    {{#hero_video_id}}
+    <div class="hero-video-placeholder" data-hero-video-provider="{{hero_video_provider}}" data-hero-video-id="{{hero_video_id}}">
+      <p class="video-no-js-message">Sorry, you must be using a <a href="http://browsehappy.com/" target="_blank">modern browser</a> with JavaScript enabled to view videos.</p>
+    </div>
+    {{/hero_video_id}}
+  
+  </div>
+  {{/has_hero}}
+
+  <div class="article-content">
+  
+    <div class="article-header">
+      <h3 class="article-title">{{{title_html}}}</h3>
+    </div>
+    
+    <div class="article-body">
+      <div class="article-date" data-timestamp="{{timestamp}}">{{{date_html}}}</div>
+      
+      <div class="article-text"><div class="body-text">{{{text_html}}}</div></div>
+      
+      {{#has_tags}}
+      <div class="article-tags">
+        <ul class="tag-list">
+          {{#tags}}
+          <li class="tag-list-item"><a class="tag-list-link" href="/{{tag_link}}"{{#tag_video_previews_url}} data-video-previews-url="{{tag_video_previews_url}}"{{/tag_video_previews_url}}>{{tag_name}}</a></li>
+          <b></b>
+          {{/tags}}
+        </ul>
+        <div class="clear"></div>
+      </div>
+      {{/has_tags}}
+      
+      <div class="article-share-placeholder" data-share-url="{{share_link}}" data-share-title="{{share_title}}" data-share-text="{{share_text}}"{{#hero_video_iframe}} data-embed-code="{{{hero_video_iframe}}}"{{/hero_video_iframe}}></div>
+      
+    </div>
+    
+    <div class="article-collapsible-container">
+      <div class="article-collapsible">
+
+        {{#comments_enabled}}
+        <div class="comments">
+          <div class="comments-placeholder" data-comments-link="http://www.thrashermagazine.com{{comments_link}}"></div>
+        </div>
+        {{/comments_enabled}}
+      </div>
+    </div> <!-- .article-collapsible-container -->
+    
+  </div> <!-- .article-content -->
+
+</div> <!-- .article --></script>
+<script class="feature_article" type="text/mustache"><div class="article"{{#ad_test_key}} data-ad-test-key="{{ad_test_key}}"{{/ad_test_key}}>
+  
+  {{#landing_page_header}}<div class="landing-page-header-container" data-header="{{landing_page_header}}" data-size="{{landing_page_size}}" data-link="{{landing_page_link}}"></div>{{/landing_page_header}}
+  
+  {{#has_hero}}
+  <div class="article-hero-container">
+    
+    {{#hero_image_url}}
+    <img class="article-image" src="/{{hero_image_url}}" alt="{{hero_image_url}}" />
+    {{/hero_image_url}}
+      
+    {{#hero_video_id}}
+    <div class="hero-video-placeholder" data-hero-video-provider="{{hero_video_provider}}" data-hero-video-id="{{hero_video_id}}">
+      <p class="video-no-js-message">Sorry, you must be using a <a href="http://browsehappy.com/" target="_blank">modern browser</a> with JavaScript enabled to view videos.</p>
+    </div>
+    {{/hero_video_id}}
+  
+  </div>
+  {{/has_hero}}
+
+  <div class="article-content">
+    
+    <div class="article-body">
+      
+      <div class="article-text"><div class="body-text">{{{text_html}}}</div></div>
+      
+      {{#has_tags}}
+      <div class="article-tags">
+        <ul class="tag-list">
+          {{#tags}}
+          <li class="tag-list-item"><a class="tag-list-link" href="/{{tag_link}}"{{#tag_video_previews_url}} data-video-previews-url="{{tag_video_previews_url}}"{{/tag_video_previews_url}}>{{tag_name}}</a></li>
+          <b></b>
+          {{/tags}}
+        </ul>
+        <div class="clear"></div>
+      </div>
+      {{/has_tags}}
+      
+      <div class="article-share-placeholder" data-share-url="{{share_link}}" data-share-title="{{share_title}}" data-share-text="{{share_text}}"{{#hero_video_iframe}} data-embed-code="{{{hero_video_iframe}}}"{{/hero_video_iframe}}></div>
+      
+    </div>
+    
+    <div class="article-collapsible-container">
+      <div class="article-collapsible">
+
+        {{#comments_enabled}}
+        <div class="comments">
+          <div class="comments-placeholder" data-comments-link="http://www.thrashermagazine.com{{comments_link}}"></div>
+        </div>
+        {{/comments_enabled}}
+      </div>
+    </div> <!-- .article-collapsible-container -->
+    
+  </div> <!-- .article-content -->
+
+</div> <!-- .article --></script>
+
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"05973e9625","applicationID":"301889383","transactionName":"YAAAZEYAXkACUBZQDllKN0JdTlldB1YaFxFfFQ==","queueTime":0,"applicationTime":656,"atts":"TEcDEg4aTU4=","errorBeacon":"bam.nr-data.net","agent":""}</script><script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"rayId":"6463d2a7ff714cf1","si":10,"version":"2021.4.0"}'></script>
+</body>
+</html>

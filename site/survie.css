@@ -1,0 +1,124 @@
+/*Selector {
+	Property: value;
+}*/
+
+
+body {
+
+	background-image: url("0005-034-11-cardiel_yelland_WEB.jpg");
+	background-size:cover;
+
+	font-family: 'Amatic SC', cursive;
+}
+
+img {
+	border-style: groove; 
+	border-color: #311900; 
+	height: 400px;
+	width: 600px;
+	margin: 8px;
+	justify-content: center;
+
+}
+
+h1 {
+	color: #100044 ;
+	text-align: center;
+}
+li {
+	color: white;
+	list-style: none
+}
+
+p {
+	color: white;
+}
+h3 {
+
+	color::#25044B;
+	text-align: center
+
+}
+
+div {
+
+border-style: solid;
+	border-color: rgba(0,0,0,0.9);
+	border-width: 3.5px;
+	border:center;
+	justify-content: center;
+	text-align:center;
+}
+
+header {
+font-family: 'Amatic SC', cursive;
+
+}
+
+a {
+	text-decoration:none ;
+	text-align: center;
+	font-family: 'Amatic SC', cursive;
+	font-size: 30px;
+	color:#11148F;
+
+}
+
+section {
+
+	border-style: solid;
+	border-color: rgba(0,0,0,0.9);
+	border-width: 3.5px;
+	justify-content:center;
+
+
+}
+
+.boxmodel {
+	
+	padding: 0px 14px;
+	box-shadow: 2px 2px 2px 2px; color:rgba(0,0,000120,0.85);
+	font-size: 16px;
+	border-radius: 45px;
+	align-self: center;
+	margin:8px 14px 10px 14px; 
+
+
+
+}
+
+
+button {
+
+	background-color: black;
+
+}
+
+
+button:hover {
+	transition: all 0.5s;
+	transform: scale(1.1);
+
+} 
+
+
+.fotosindex {
+	display: flex;
+	flex-wrap:wrap;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.roll:hover {
+	transition: all 0.5s;
+	transform: scale(1.1);
+	
+}
+
+
+hr {
+	li;
+}
+

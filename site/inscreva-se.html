@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Inscreva-se</title>
+	<a href="index.html">Voltar</a>
+</head>
+<body>
+<link rel="stylesheet" type="text/css" href="survie.css">
+	<header>
+		<h1>Formulário de registro</h1>
+	</header>
+	
+	<!--use GEt, not POST -->
+<div>	
+	<form method="GET">
+		Nome completo:
+				<input type="text" name="Nome completo" required><p>
+		Nascimento:
+				<input type="date" name="Nascimento" required><p>
+		Genero: 
+				<input type="radio" name="Genero" value="masculino" readonly>Masculino
+				<input type="radio" name="Genero" value="feminino">Feminino
+				<input type="radio" name="Genero" value="indefinido">Indefinido <p>
+		Cidade: 
+				<input type="text"  name="Cidade"required>	
+		
+		Estado: 
+				<input type="text" name="Estado" required><br>
+		País		
+				<select name="nacionalidade">
+					<option value="Brasil">Brasil </option>
+					<option value="Latam">Latam </option>
+					<option value="USA">USA </option>
+					<option value="EU">EU </option>
+					<option value= "Asia">Asia </option>
+				</select><p>
+		email: 
+				<input type="email" name="email" required>
+				
+		Telefone:
+				<input type="text" name="telefone" required><br>
+		
+				<p>
+		Senha:	<input type="password" name="Senha" min="8" required>
+				<p>
+		Modalidade de skate? 
+				<input type="checkbox" name="rua" y>Rua
+				<input type="checkbox" name="vertical">Vertical
+				<input type="checkbox" name="ladeira">Ladeira
+				<input type="checkbox" name="overall mtfck">Overall mtfck>
+				<p>				
+				<input type="submit"  value="Finalizar">
+				<input type="reset" value="Rasgar e tentar denovo">
+	
+	</form>
+</div>	
+	<footer>
+		<h3>>HUNTER SKATE FUCKING SHOP<</h3>
+	</footer>
+
+</body>
+</html>
+
+
+
+
