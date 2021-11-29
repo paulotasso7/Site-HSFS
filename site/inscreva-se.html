@@ -12,21 +12,21 @@
 	
 	<!--use GEt, not POST -->
 <div>	
-	<form method="GET">
+	<form method="POST">
 		Nome completo:
-				<input type="text" name="Nome completo" required><p>
+				<input type="text" name="Nome completo"><p>
 		Nascimento:
-				<input type="date" name="Nascimento" required><p>
+				<input type="date" name="Nascimento"><p>
 		Genero: 
 				<input type="radio" name="Genero" value="masculino" readonly>Masculino
 				<input type="radio" name="Genero" value="feminino">Feminino
 				<input type="radio" name="Genero" value="indefinido">Indefinido <p>
 		Cidade: 
-				<input type="text"  name="Cidade"required>	
+				<input type="text"  name="Cidade">	
 		
 		Estado: 
-				<input type="text" name="Estado" required><br>
-		País		
+				<input type="text" name="Estado" ><br>
+		Região:		
 				<select name="nacionalidade">
 					<option value="Brasil">Brasil </option>
 					<option value="Latam">Latam </option>
@@ -35,13 +35,13 @@
 					<option value= "Asia">Asia </option>
 				</select><p>
 		email: 
-				<input type="email" name="email" required>
+				<input type="email" name="email" >
 				
 		Telefone:
-				<input type="text" name="telefone" required><br>
+				<input type="text" name="telefone" ><br>
 		
 				<p>
-		Senha:	<input type="password" name="Senha" min="8" required>
+		Senha:	<input type="password" name="Senha" min="8" >
 				<p>
 		Modalidade de skate? 
 				<input type="checkbox" name="rua" y>Rua
@@ -60,7 +60,3 @@
 
 </body>
 </html>
-
-
-
-
